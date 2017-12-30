@@ -1,34 +1,26 @@
 # awesome-pandas
-A collection of resources for pandas (Python) and related subjects.
+A collection of resources for [pandas](http://pandas.pydata.org/) 
+([Python](https://www.python.org/)) and related subjects.
 
-**Table of contents**
+**Contents:** This page is divided into three parts.
 
-* pandas resources
-
-  * Videos
-  * Cheat-sheets
-  * Tutorials
-  * Books
-
-* Data analysis with Python resources
-
-  * Videos
-  * Cheat-sheets
-  * Tutorials
-  * Books
-
-* Miscellaneous related resources
-
-  * Videos
-  * Cheat-sheets
-  * Tutorials
-  * Books
+* (1) **pandas resources** - A collection of videos, cheat-sheets, tutorials and books related directly to pandas.
+* (2) **Data analysis with Python resources** - Material related to adjacent 
+  Python libraries such as 
+  [NumPy](http://www.numpy.org/),
+  [scipy](https://www.scipy.org/), 
+  [matplotlib](https://matplotlib.org/), 
+  [seaborn](https://seaborn.pydata.org/)
+  [statsmodels](http://www.statsmodels.org/stable/) and
+  [Jupyter](http://jupyter.org/).
+* (3) **Miscellaneous related resources** - Resources related to general data
+  analysis, algorithms, computer science, machine learning, statistics, etc.
 
 --------------------------------------------------------------------------------
 
-## pandas resources
+## (1) pandas resources
 
-### Videos
+### (1.1) Videos
 
 The videos below were collected in December of 2017.
 They are all related to pandas, and the **Level** of a video is quantified roughly as follows:
@@ -60,7 +52,7 @@ They are all related to pandas, and the **Level** of a video is quantified rough
 * (Introduction To Data Analytics With Pandas) https://www.youtube.com/watch?v=5XGycFIe8qE
 * (Introduction Into Pandas: Python Tutorial) https://www.youtube.com/watch?v=-NR-ynQg0YM
 
-### Cheat-sheets
+### (1.2) Cheat-sheets
 
 * https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
 * https://s3.amazonaws.com/quandl-static-content/Documents/Quandl+-+Pandas,+SciPy,+NumPy+Cheat+Sheet.pdf
@@ -68,7 +60,7 @@ They are all related to pandas, and the **Level** of a video is quantified rough
 * https://assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf
 * https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Pandas_Cheat_Sheet_2.pdf
 
-### Tutorials
+### (1.3) Tutorials
 * https://github.com/jorisvandenbossche/pandas-tutorial
 * https://github.com/guipsamora/pandas_exercises
 * https://github.com/brandon-rhodes/pycon-pandas-tutorial
@@ -81,11 +73,13 @@ They are all related to pandas, and the **Level** of a video is quantified rough
 * https://github.com/vi3k6i5/pandas_basics
 * https://github.com/california-civic-data-coalition/first-python-notebook
 
-### Books
+### (1.4) Books
 
-## Data analysis with Python resources
+--------------------------------------------------------------------------------
 
-### Videos
+## (2) Data analysis with Python resources
+
+### (2.1) Videos
 | Title | Speaker | Uploader | Time | Views | Keyword | Year | Level |
 | ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
 | [NumPy Beginner](https://www.youtube.com/watch?v=gtejJ3RCddE) [[repo](https://github.com/enthought/Numpy-Tutorial-SciPyConf-2016)] | Alexandre Chabot LeClerc | Enthought | 2:47 | 56000 | NumPy | 2016 | :snake: :snake: |
@@ -124,19 +118,21 @@ They are all related to pandas, and the **Level** of a video is quantified rough
 | [Using randomness to make code much faster](https://www.youtube.com/watch?v=7i6kBz1kZ-A) | Rachel Thomas | SF Python | 0:54 | 1000 | scipy | 2017 | Novice |
 | [Python Profiling & Performance](https://www.youtube.com/watch?v=Dgnp28Ijm_M) | Mahmoud Hashemi | SF Python | 0:28 | 1000 | python | 2016 | Novice |
 
-### Cheat-sheets
+### (2.2) Cheat-sheets
 * http://datasciencefree.com/numpy.pdf
 * https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf
 
-### Tutorials
+### (2.3) Tutorials
 
-### Books
+### (2.4) Books
 
-## Data analysis resources
+--------------------------------------------------------------------------------
 
-### Books
+## (3) Miscellaneous related resources
 
-### Papers
+### (3.1) Books
+
+### (3.2) Papers
 
 ###
 
