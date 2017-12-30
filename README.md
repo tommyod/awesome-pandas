@@ -6,11 +6,11 @@ A collection of resources for [pandas](http://pandas.pydata.org/)
 
 * (1) **pandas resources** - A collection of videos, cheat-sheets, tutorials and books related directly to pandas.
 * (2) **Data analysis with Python resources** - Material related to adjacent 
-  Python libraries such as 
+  Python libraries and software such as 
   [NumPy](http://www.numpy.org/),
   [scipy](https://www.scipy.org/), 
   [matplotlib](https://matplotlib.org/), 
-  [seaborn](https://seaborn.pydata.org/)
+  [seaborn](https://seaborn.pydata.org/),
   [statsmodels](http://www.statsmodels.org/stable/) and
   [Jupyter](http://jupyter.org/).
 * (3) **Miscellaneous related resources** - Resources related to general data
@@ -18,12 +18,13 @@ A collection of resources for [pandas](http://pandas.pydata.org/)
 
 --------------------------------------------------------------------------------
 
-## (1) pandas resources
+## (1)  :panda_face: pandas resources
 
-### (1.1) Videos
+### (1.1)  :tv: Videos
 
 The videos below were collected in December of 2017.
-They are all related to pandas, and the **Level** of a video is quantified roughly as follows:
+They are all directly related to pandas, and the **Level** of a video is 
+quantified roughly as follows:
 
 * :smiley: : **Beginner** - requires little knowledge to jump into, elementary topics.
 * :sweat_smile: : **Intermediate** - some prior knowledge needed, more technical. 
@@ -35,24 +36,17 @@ They are all related to pandas, and the **Level** of a video is quantified rough
 | [Introduction To Data Analytics With Pandas](https://www.youtube.com/watch?v=5XGycFIe8qE) | Quentin Caudron | Python Tutorial | 1:51 | 25000 | 2017 | :smiley: |
 | [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw) [[repo](https://github.com/brandon-rhodes/pycon-pandas-tutorial)] | Brandon Rhodes | PyCon 2015 | 2:24 | 91000 | 2015 | :smiley: |
 | [Pandas for Data Analysis](https://www.youtube.com/watch?v=oGzU688xCUs) [[repo](https://github.com/chendaniely/scipy-2017-tutorial-pandas)] | Daniel Chen | Enthought | 3:45 | 13000 | 2017 | :sweat_smile: |
-| [Optimizing Pandas Code for Speed and Efficiency](https://www.youtube.com/watch?v=HN5d490_KKk) | Sofia Heisler | PyCon 2017 | 0:29 | 12000 | 2017 | :sweat_smile: |
+| [Optimizing Pandas Code](https://www.youtube.com/watch?v=HN5d490_KKk) | Sofia Heisler | PyCon 2017 | 0:29 | 12000 | 2017 | :sweat_smile: |
 | [A Visual Guide To Pandas](https://www.youtube.com/watch?v=9d5-Ti6onew) | Jason Wirth | Next Day Video | 0:26 | 49000 | 2015 | :smiley: |
 | [Analyzing and Manipulating Data with Pandas](https://www.youtube.com/watch?v=6ohWS7J1hVA) [[repo](https://github.com/jonathanrocher/pandas_tutorial)] | Jonathan Rocher | Enthought | 3:33 | 22000 | 2016 | :smiley: |
 | [Time Series Analysis](https://www.youtube.com/watch?v=zmfe2RaX-14) [[repo](https://github.com/ikding/pycon_time_series)] | Aileen Nielsen | PyCon 2017 | 3:11 | 9000 | 2017 | :sweat_smile: |
 | [Pandas from the Inside](https://www.youtube.com/watch?v=CowlcrtSyME) | Stephen Simmons | PyData | 1:20 | 9000 | 2016 | :scream: |
-| [Predicting sports winners with pandas and scikit-learn](https://www.youtube.com/watch?v=k7hSD_-gWMw) | Robert Layton | PyCon Australia | 0:38 | 13000 | 2015 | :sweat_smile: |
+| [Predicting sports winners with pandas](https://www.youtube.com/watch?v=k7hSD_-gWMw) | Robert Layton | PyCon Australia | 0:38 | 13000 | 2015 | :sweat_smile: |
 | [Pandas from the Inside](https://www.youtube.com/watch?v=YGk09nK_xnM) | Stephen Simmons | PyData | 1:17 | 3000 | 2017 | :scream: |
 
+*Know of a recent, good video? Send a pull request! +1
 
-* (Brandon Rhodes - Pandas From The Ground Up - PyCon 2015) https://www.youtube.com/watch?v=5JnMutdy6Fw
-* (A Visual Guide To Pandas) https://www.youtube.com/watch?v=9d5-Ti6onew
-* (Stephen Simmons | Pandas from the Inside) https://www.youtube.com/watch?v=CowlcrtSyME
-* (Stephen Simmons - Pandas from the Inside / "Big Pandas") https://www.youtube.com/watch?v=YGk09nK_xnM
-* (Pandas for Data Analysis | SciPy 2017 Tutorial | Daniel Chen) https://www.youtube.com/watch?v=oGzU688xCUs
-* (Introduction To Data Analytics With Pandas) https://www.youtube.com/watch?v=5XGycFIe8qE
-* (Introduction Into Pandas: Python Tutorial) https://www.youtube.com/watch?v=-NR-ynQg0YM
-
-### (1.2) Cheat-sheets
+### (1.2) :exclamation: Cheat-sheets
 
 * https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
 * https://s3.amazonaws.com/quandl-static-content/Documents/Quandl+-+Pandas,+SciPy,+NumPy+Cheat+Sheet.pdf
@@ -60,7 +54,7 @@ They are all related to pandas, and the **Level** of a video is quantified rough
 * https://assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf
 * https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Pandas_Cheat_Sheet_2.pdf
 
-### (1.3) Tutorials
+### (1.3) :mortar_board: Tutorials
 * https://github.com/jorisvandenbossche/pandas-tutorial
 * https://github.com/guipsamora/pandas_exercises
 * https://github.com/brandon-rhodes/pycon-pandas-tutorial
@@ -73,13 +67,13 @@ They are all related to pandas, and the **Level** of a video is quantified rough
 * https://github.com/vi3k6i5/pandas_basics
 * https://github.com/california-civic-data-coalition/first-python-notebook
 
-### (1.4) Books
+### (1.4) :blue_book: Books / papers
 
 --------------------------------------------------------------------------------
 
 ## (2) Data analysis with Python resources
 
-### (2.1) Videos
+### (2.1) :tv: Videos
 | Title | Speaker | Uploader | Time | Views | Keyword | Year | Level |
 | ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
 | [NumPy Beginner](https://www.youtube.com/watch?v=gtejJ3RCddE) [[repo](https://github.com/enthought/Numpy-Tutorial-SciPyConf-2016)] | Alexandre Chabot LeClerc | Enthought | 2:47 | 56000 | NumPy | 2016 | :snake: :snake: |
@@ -118,26 +112,45 @@ They are all related to pandas, and the **Level** of a video is quantified rough
 | [Using randomness to make code much faster](https://www.youtube.com/watch?v=7i6kBz1kZ-A) | Rachel Thomas | SF Python | 0:54 | 1000 | scipy | 2017 | Novice |
 | [Python Profiling & Performance](https://www.youtube.com/watch?v=Dgnp28Ijm_M) | Mahmoud Hashemi | SF Python | 0:28 | 1000 | python | 2016 | Novice |
 
-### (2.2) Cheat-sheets
+### (2.2) :exclamation: Cheat-sheets
 * http://datasciencefree.com/numpy.pdf
 * https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf
 
-### (2.3) Tutorials
+### (2.3) :mortar_board: Tutorials
 
-### (2.4) Books
+### (2.4) :blue_book: Books / papers
 
 --------------------------------------------------------------------------------
 
 ## (3) Miscellaneous related resources
 
-### (3.1) Books
+### (3.1)  :tv: Videos
 
-### (3.2) Papers
+| Title | Speaker | Uploader | Time | Views | Keyword | Year | Level |
+| ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
+| [How to become a Data Scientist in 6 months](https://www.youtube.com/watch?v=rIofV14c0tc) | Tetiana Ivanova | PyData | 0:56 | 148000 | misc | 2016 | :snake: |
+| [So you want to be a Python expert?](https://www.youtube.com/watch?v=cKPlPJyQrt4) | James Powell | PyData | 1:54 | 28000 | python | 2017 | :snake::snake::snake: |
+| [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go) |  Raymond Hettinger | Next Day Video | 0:48 | 340000 | python | 2013 | :snake: |
+| [Modern Dictionaries](https://www.youtube.com/watch?v=p33CVV29OG8) | Raymond Hettinger | SF Python | 1:07 | 44000 | python | 2016 | :snake: :snake: |
+| [Keynote on Concurrency](https://www.youtube.com/watch?v=9zinZmE3Ogk) | Raymond Hettinger | SF Python | 1:13 | 15000 | python | 2017 | :snake::snake: |
+| [Pandas for Data Analysis](https://www.youtube.com/watch?v=oGzU688xCUs) [[repo](https://github.com/chendaniely/scipy-2017-tutorial-pandas)] | Daniel Chen | Enthought | 3:45 | 13000 | pandas | 2017 | :snake::snake: |
+| [The Fun of Reinvention](https://www.youtube.com/watch?v=js_0wjzuMfc) | David Beazley | David Beazley | 0:52 | 11000 | python | 2017 | :snake::snake::snake: |
+| [Being a Core Developer in Python](https://www.youtube.com/watch?v=voXVTjwnn-U) | Raymond Hettinger | SF Python | 1:02 | 19000 | python | 2016 | :snake: |
+| [Visualizing Geographic Data](https://www.youtube.com/watch?v=ZIEyHdvF474) | Christopher Roach | PyData | 0:31 | 14000 | python | 2016 | :snake: |
+| [Builtin Superheroes](https://www.youtube.com/watch?v=j6VSAsKAj98) | David Beazley | David Beazley | 0:44 | 12000 | python | 2016 | :snake: :snake: |
+| [Python's Class Development Toolkit](https://www.youtube.com/watch?v=HTLu2DFOdTg) | Raymond Hettinger | Next Day Video | 0:45 | 80000 | python | 2013 | :snake: :snake: |
+| [The Other Async (Threads + Async = ❤️) - YouTube](https://www.youtube.com/watch?v=x1ndXuw7S0s) | David Beazley | David Beazley | 0:47 | 5000 | python | 2017 | :snake: :snake: :snake:|
+| [Functional Programming with Python](https://www.youtube.com/watch?v=Ta1bAMOMFOI) | Mike Müller | Next Day Video | 0:27 | 44000 | python | 2013 | Novice |
+| [Building a Recommendation Engine using Python](https://www.youtube.com/watch?v=E9XTOnEgqRY) | Anusua Trivedi | PyData | 0:37 | 11000 | python | 2015 | Novice |
+| [Iterations of Evolution](https://www.youtube.com/watch?v=2AXuhgid7E4) | David Beazley | David Beazley | 0:34 | 2000 | python | 2017 | Novice |
+| ["Good Enough" IS Good Enough!](https://www.youtube.com/watch?v=_Ek3A2b-nHU) | Alex Martelli | SF Python | 0:53 | 4000 | python | 2016 | Novice |
 
-###
 
+### (3.2) :exclamation: Cheat-sheets
 
+### (3.3) :mortar_board: Tutorials
 
+### (3.4) :blue_book: Books / papers
 
 --------------------------------------------------------------------------------
 
