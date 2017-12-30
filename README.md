@@ -7,12 +7,16 @@ A collection of resources for pandas (Python) and related subjects.
 
 ### Videos
 
+:snake: - Little programming
+:snake: :snake: Some programming
+:snake: :snake: :snake: -Advanced
+
 | Title | Speaker | Uploader | Duration | Views | Keywords | Year | Level |
 | ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
 | [How to become a Data Scientist in 6 months](https://www.youtube.com/watch?v=rIofV14c0tc) | Tetiana Ivanova | PyData | 0:56 | 148000 | misc | 2016 | :snake: |
-| [Introduction Into Pandas: Python Tutorial - YouTube](https://www.youtube.com/watch?v=-NR-ynQg0YM) | NAME | Python Tutorial | DURATION | 46000 | None | 2017 | Novice |
-| [James Powell - So you want to be a Python expert? - YouTube](https://www.youtube.com/watch?v=cKPlPJyQrt4) | NAME | PyData | DURATION | 28000 | None | 2017 | Novice |
-| [NumPy Beginner   SciPy 2016 Tutorial   Alexandre Chabot LeClerc - YouTube](https://www.youtube.com/watch?v=gtejJ3RCddE) | NAME | Enthought | DURATION | 56000 | None | 2016 | Novice |
+| [Introduction Into Pandas](https://www.youtube.com/watch?v=-NR-ynQg0YM) | Daniel Chen | Python Tutorial | 1:28 | 46000 | pandas | 2017 | :snake: |
+| [So you want to be a Python expert?](https://www.youtube.com/watch?v=cKPlPJyQrt4) | James Powell | PyData | 1:54 | 28000 | python | 2017 | :snake::snake::snake: |
+| [NumPy Beginner](https://www.youtube.com/watch?v=gtejJ3RCddE) [[repo](https://github.com/enthought/Numpy-Tutorial-SciPyConf-2016)] | Alexandre Chabot LeClerc | Enthought | 2:47 | 56000 | NumPy | 2016 | :snake: :snake: |
 | [Introduction To Data Analytics With Pandas - YouTube](https://www.youtube.com/watch?v=5XGycFIe8qE) | NAME | Python Tutorial | DURATION | 25000 | None | 2017 | Novice |
 | [Transforming Code into Beautiful, Idiomatic Python - YouTube](https://www.youtube.com/watch?v=OSGv2VnC0go) | NAME | Next Day Video | DURATION | 340000 | None | 2013 | Novice |
 | [Machine Learning Part 1   SciPy 2016 Tutorial   Andreas Mueller & Sebastian Raschka - YouTube](https://www.youtube.com/watch?v=OB1reY6IX-o) | NAME | Enthought | DURATION | 47000 | None | 2016 | Novice |
