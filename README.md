@@ -38,7 +38,7 @@ They are all related to pandas, and the **Level** of a video is quantified rough
 * :scream: : **Advanced** - very technical, or discusses advanced topics.
 
 | Title | Speaker | Uploader | Time | Views | Year | Level |
-| ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
+| ----- | ------- | -------- | ---- | ----- | ---- | ----- |
 | [Introduction Into Pandas](https://www.youtube.com/watch?v=-NR-ynQg0YM) | Daniel Chen | Python Tutorial | 1:28 | 46000 | 2017 | :smiley: |
 | [Introduction To Data Analytics With Pandas](https://www.youtube.com/watch?v=5XGycFIe8qE) | Quentin Caudron | Python Tutorial | 1:51 | 25000 | 2017 | :smiley: |
 | [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw) [[repo](https://github.com/brandon-rhodes/pycon-pandas-tutorial)] | Brandon Rhodes | PyCon 2015 | 2:24 | 91000 | 2015 | :smiley: |
