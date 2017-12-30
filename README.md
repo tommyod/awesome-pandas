@@ -34,7 +34,9 @@ A collection of resources for pandas (Python) and related subjects.
 :snake: :snake: Some programming
 :snake: :snake: :snake: -Advanced
 
-| Title | Speaker | Uploader | Duration | Views | Keywords | Year | Level |
+
+
+| Title | Speaker | Uploader | Time | Views | Keyword | Year | Level |
 | ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
 | [How to become a Data Scientist in 6 months](https://www.youtube.com/watch?v=rIofV14c0tc) | Tetiana Ivanova | PyData | 0:56 | 148000 | misc | 2016 | :snake: |
 | [Introduction Into Pandas](https://www.youtube.com/watch?v=-NR-ynQg0YM) | Daniel Chen | Python Tutorial | 1:28 | 46000 | pandas | 2017 | :snake: |
@@ -79,31 +81,23 @@ A collection of resources for pandas (Python) and related subjects.
 | [Anatomy of matplotlib](https://www.youtube.com/watch?v=MKucn8NtVeI) [[repo](https://github.com/matplotlib/AnatomyOfMatplotlib)] | Benjamin Root & Joe Kington | Enthought | 3:18 | 18000 | matplotlib | 2015 | :snake: :snake: |
 | [Anatomy of matplotlib](https://www.youtube.com/watch?v=rARMKS8jE9g) [[repo](https://github.com/matplotlib/AnatomyOfMatplotlib)] | Benjamin Root | Enthought | 3:02 | 4000 | matplotlib | 2017 | :snake: :snake: |
 | [Data Science is Software](https://www.youtube.com/watch?v=EKUy0TSLg04) [[repo](https://github.com/drivendata/data-science-is-software)] | Peter Bull & Isaac Slavitt | Enthought | 2:12 | 9000 | jupyter | 2016 | :snake: |
-| [Jake VanderPlas: Machine Learning with Scikit Learn - YouTube](https://www.youtube.com/watch?v=HC0J_SPm9co) | NAME | PyData | DURATION | 16000 | None | 2015 | Novice |
-| [Using Jupyter notebooks to develop and share interactive data displays - YouTube](https://www.youtube.com/watch?v=aXR2d9k9-h4) | NAME | PyCon Australia | DURATION | 8000 | None | 2016 | Novice |
-| [Parallel Python: Analyzing Large Datasets Intermediate   SciPy 2016 Tutorial   Matthew Rocklin & Mi - YouTube](https://www.youtube.com/watch?v=5Md_sSsN51k) | NAME | Enthought | DURATION | 7000 | None | 2016 | Novice |
-| [Functional Programming with Python - YouTube](https://www.youtube.com/watch?v=Ta1bAMOMFOI) | NAME | Next Day Video | DURATION | 44000 | None | 2013 | Novice |
-| [Predicting sports winners using data analytics with pandas and scikit-learn by Robert Layton - YouTube](https://www.youtube.com/watch?v=k7hSD_-gWMw) | NAME | PyCon Australia | DURATION | 13000 | None | 2015 | Novice |
-| [Keynote: Project Jupyter   SciPy 2016   Brian Granger - YouTube](https://www.youtube.com/watch?v=v5mrwq7yJc4) | NAME | Enthought | DURATION | 7000 | None | 2016 | Novice |
-| [matplotlib (Python Plotting Library) Beginner   SciPy 2016 Tutorial   Nicolas Rougier - YouTube](https://www.youtube.com/watch?v=p7Mj-4kASmI) | NAME | Enthought | DURATION | 6000 | None | 2016 | Novice |
-| [Awesome Big Data Algorithms - YouTube](https://www.youtube.com/watch?v=jKBwGlYb13w) | NAME | Next Day Video | DURATION | 41000 | None | 2013 | Novice |
-| [Stephen Simmons - Pandas from the Inside / "Big Pandas" - YouTube](https://www.youtube.com/watch?v=YGk09nK_xnM) | NAME | PyData | DURATION | 3000 | None | 2017 | Novice |
-| [Fear and Awaiting in Async (Screencast) - YouTube](https://www.youtube.com/watch?v=Bm96RqNGbGo) | NAME | David Beazley | DURATION | 5000 | None | 2016 | Novice |
-| [Brian Granger: All About Jupyter - YouTube](https://www.youtube.com/watch?v=GMKZD1Ohlzk) | NAME | PyData | DURATION | 11000 | None | 2015 | Novice |
-| [Anusua Trivedi: An example of Predictive Analytics: Building a Recommendation Engine using Python - YouTube](https://www.youtube.com/watch?v=E9XTOnEgqRY) | NAME | PyData | DURATION | 11000 | None | 2015 | Novice |
-| [Sarah Guido   The Wild West of Data Wrangling   PyCon 2017 - YouTube](https://www.youtube.com/watch?v=xn9sTXR3Cp8) | NAME | PyCon 2017 | DURATION | 3000 | None | 2017 | Novice |
-| [Adventures in scikit-learn's Random Forest by Gregory Saunders - YouTube](https://www.youtube.com/watch?v=YkVscKsV_qk) | NAME | PyCon Australia | DURATION | 9000 | None | 2015 | Novice |
-| [Doing Math with Python - YouTube](https://www.youtube.com/watch?v=XJOt4QQgx0A) | NAME | PyCon Australia | DURATION | 5000 | None | 2016 | Novice |
-| [Iterations of Evolution:  The Unauthorized Biography of the For-Loop - YouTube](https://www.youtube.com/watch?v=2AXuhgid7E4) | NAME | David Beazley | DURATION | 2000 | None | 2017 | Novice |
-| [Alex Martelli, ""Good Enough" IS Good Enough!", PyBay2016 - YouTube](https://www.youtube.com/watch?v=_Ek3A2b-nHU) | NAME | SF Python | DURATION | 4000 | None | 2016 | Novice |
-| [Renee Chu - Python for Social Scientists: Cleaning and Prepping Data - PyCon 2016 - YouTube](https://www.youtube.com/watch?v=u682UpVrMVM) | NAME | PyCon 2016 | DURATION | 3000 | None | 2016 | Novice |
-| [PyMC: Markov Chain Monte Carlo in Python   SciPy 2014   Chris Fonnesbeck - YouTube](https://www.youtube.com/watch?v=XbxIo7ScVzc) | NAME | Enthought | DURATION | 9000 | None | 2014 | Novice |
-| [Alex Martelli, ""The Tower of Abstraction", PyBay2016 - YouTube](https://www.youtube.com/watch?v=zhpWhkW8kcc) | NAME | SF Python | DURATION | 3000 | None | 2016 | Novice |
-| [Jupyter Advanced Topics Tutorial   SciPy 2015 Tutorial   Jonathan Frederic, Matthias Bussonier & Tho - YouTube](https://www.youtube.com/watch?v=38R7jiCspkw) | NAME | Enthought | DURATION | 4000 | None | 2015 | Novice |
-| [Rachel Thomas, "Using randomness to make code much faster", PyBay2017 - YouTube](https://www.youtube.com/watch?v=7i6kBz1kZ-A) | NAME | SF Python | DURATION | 1000 | None | 2017 | Novice |
-| [Mahmoud Hashemi, Python Profiling & Performance: elementary to enterprise, PyBay2016 - YouTube](https://www.youtube.com/watch?v=Dgnp28Ijm_M) | NAME | SF Python | DURATION | 1000 | None | 2016 | Novice |
-| [Dillon Niederhut, "What to do when your data is large, but not big", PyBay2016 - YouTube](https://www.youtube.com/watch?v=g-YCaX3ml2Q) | NAME | SF Python | DURATION | 0 | None | 2016 | Novice |
-| [Cynthia Lin, "Opening Up to Open Source", PyBay2017 - YouTube](https://www.youtube.com/watch?v=rfdzOZkDqYk) | NAME | SF Python | DURATION | 0 | None | 2017 | Novice |
+| [Machine Learning with Scikit Learn](https://www.youtube.com/watch?v=HC0J_SPm9co) [[repo](https://github.com/jakevdp/sklearn_pydata2015)] | Jake VanderPlas | PyData | 1:34 | 16000 | sklearn | 2015 | Novice |
+| [Using Jupyter notebooks](https://www.youtube.com/watch?v=aXR2d9k9-h4) | Ioanna Ioannou | PyCon Australia | 0:28 | 8000 | jupyter | 2016 | Novice |
+| [Parallel Python: Analyzing Large Datasets](https://www.youtube.com/watch?v=5Md_sSsN51k) [[repo](https://github.com/pydata/parallel-tutorial)] | Matthew Rocklin | Enthought | 3:05 | 7000 | scipy | 2016 | Novice |
+| [Functional Programming with Python](https://www.youtube.com/watch?v=Ta1bAMOMFOI) | Mike Müller | Next Day Video | 0:27 | 44000 | python | 2013 | Novice |
+| [Predicting sports winners with pandas and scikit-learn](https://www.youtube.com/watch?v=k7hSD_-gWMw) | Robert Layton | PyCon Australia | 0:38 | 13000 | pandas | 2015 | Novice |
+| [Keynote: Project Jupyter](https://www.youtube.com/watch?v=v5mrwq7yJc4) | Brian Granger | Enthought | 0:48 | 7000 | jupyter | 2016 | Novice |
+| [matplotlib beginner tutorial](https://www.youtube.com/watch?v=p7Mj-4kASmI) [[repo](https://github.com/rougier/matplotlib-tutorial)] | Nicolas Rougier | Enthought | 2:59 | 6000 | matplotlib | 2016 | Novice |
+| [Awesome Big Data Algorithms](https://www.youtube.com/watch?v=jKBwGlYb13w) | Titus Brown | Next Day Video | 0:39 | 41000 | python | 2013 | Novice |
+| [Pandas from the Inside](https://www.youtube.com/watch?v=YGk09nK_xnM) | Stephen Simmons | PyData | 1:17 | 3000 | pandas | 2017 | Novice |
+| [All About Jupyter](https://www.youtube.com/watch?v=GMKZD1Ohlzk) | Brian Granger | PyData | 0:39 | 11000 | jupyter | 2015 | Novice |
+| [Building a Recommendation Engine using Python](https://www.youtube.com/watch?v=E9XTOnEgqRY) | Anusua Trivedi | PyData | 0:37 | 11000 | python | 2015 | Novice |
+| [Iterations of Evolution](https://www.youtube.com/watch?v=2AXuhgid7E4) | David Beazley | David Beazley | 0:34 | 2000 | python | 2017 | Novice |
+| ["Good Enough" IS Good Enough!](https://www.youtube.com/watch?v=_Ek3A2b-nHU) | Alex Martelli | SF Python | 0:53 | 4000 | python | 2016 | Novice |
+| [PyMC: Markov Chain Monte Carlo](https://www.youtube.com/watch?v=XbxIo7ScVzc) | Chris Fonnesbeck | Enthought | 0:20 | 9000 | pyMC | 2014 | Novice |
+| [Jupyter Advanced Topics Tutorial](https://www.youtube.com/watch?v=38R7jiCspkw) [[repo](https://github.com/jupyter/scipy-advanced-tutorial)] | Jonathan Frederic & Matthias Bussonier | Enthought | 2:48 | 4000 | jupyter | 2015 | Novice |
+| [Using randomness to make code much faster](https://www.youtube.com/watch?v=7i6kBz1kZ-A) | Rachel Thomas | SF Python | 0:54 | 1000 | scipy | 2017 | Novice |
+| [Python Profiling & Performance](https://www.youtube.com/watch?v=Dgnp28Ijm_M) | Mahmoud Hashemi | SF Python | 0:28 | 1000 | python | 2016 | Novice |
 
 
 * (Brandon Rhodes - Pandas From The Ground Up - PyCon 2015) https://www.youtube.com/watch?v=5JnMutdy6Fw
