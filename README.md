@@ -4,8 +4,8 @@ A collection of resources for [pandas](http://pandas.pydata.org/)
 
 **Contents:** This page is divided into three parts.
 
-* (1) **pandas resources** - A collection of videos, cheat-sheets, tutorials and books related directly to pandas.
-* (2) **Data analysis with Python resources** - Material related to adjacent 
+1. **pandas resources** - A collection of videos, cheat-sheets, tutorials and books related directly to pandas.
+2. **Data analysis with Python resources** - Material related to adjacent 
   Python libraries and software such as 
   [NumPy](http://www.numpy.org/),
   [scipy](https://www.scipy.org/), 
@@ -13,7 +13,7 @@ A collection of resources for [pandas](http://pandas.pydata.org/)
   [seaborn](https://seaborn.pydata.org/),
   [statsmodels](http://www.statsmodels.org/stable/) and
   [Jupyter](http://jupyter.org/).
-* (3) **Miscellaneous related resources** - Resources related to general data
+3. **Miscellaneous related resources** - Resources related to general data
   analysis, algorithms, computer science, machine learning, statistics, etc.
 
 --------------------------------------------------------------------------------
@@ -48,11 +48,10 @@ quantified roughly as follows:
 
 ### (1.2) :exclamation: Cheat-sheets
 
-* https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
-* https://s3.amazonaws.com/quandl-static-content/Documents/Quandl+-+Pandas,+SciPy,+NumPy+Cheat+Sheet.pdf
-* http://www.webpages.uidaho.edu/~stevel/504/Pandas%20DataFrame%20Notes.pdf
-* https://assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf
-* https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Pandas_Cheat_Sheet_2.pdf
+* [Data Wrangling with pandas](https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf)
+* [The pandas DataFrame Object](http://www.webpages.uidaho.edu/~stevel/504/Pandas%20DataFrame%20Notes.pdf)
+* [Python For Data Science - pandas Basics](https://assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf)
+* [Python For Data Science - pandas](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Pandas_Cheat_Sheet_2.pdf)
 
 ### (1.3) :mortar_board: Tutorials
 * https://github.com/jorisvandenbossche/pandas-tutorial
@@ -68,6 +67,9 @@ quantified roughly as follows:
 * https://github.com/california-civic-data-coalition/first-python-notebook
 
 ### (1.4) :blue_book: Books / papers
+
+* [[amazon](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/)] McKinney, Wes. *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython*. 2 edition. Beijing: O’Reilly Media, 2017.
+* [[amazon](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057/)] VanderPlas, Jake. *Python Data Science Handbook: Essential Tools for Working with Data*. 1 edition. Sebastopol, CA: O’Reilly Media, 2016.
 
 --------------------------------------------------------------------------------
 
@@ -119,6 +121,8 @@ quantified roughly as follows:
 ### (2.3) :mortar_board: Tutorials
 
 ### (2.4) :blue_book: Books / papers
+
+* [[amazon](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/)] Géron, Aurélien. *Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*. 1 edition. O’Reilly Media, 2017.
 
 --------------------------------------------------------------------------------
 
