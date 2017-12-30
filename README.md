@@ -9,7 +9,7 @@ A collection of resources for pandas (Python) and related subjects.
 
 | Title | Speaker | Uploader | Duration | Views | Keywords | Year | Level |
 | ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
-| [Tetiana Ivanova - How to become a Data Scientist in 6 months a hacker’s approach to career planning - YouTube](https://www.youtube.com/watch?v=rIofV14c0tc) | NAME | PyData | DURATION | 148000 | None | 2016 | Novice |
+| [How to become a Data Scientist in 6 months](https://www.youtube.com/watch?v=rIofV14c0tc) | Tetiana Ivanova | PyData | 0:56 | 148000 | misc | 2016 | :snake: |
 | [Introduction Into Pandas: Python Tutorial - YouTube](https://www.youtube.com/watch?v=-NR-ynQg0YM) | NAME | Python Tutorial | DURATION | 46000 | None | 2017 | Novice |
 | [James Powell - So you want to be a Python expert? - YouTube](https://www.youtube.com/watch?v=cKPlPJyQrt4) | NAME | PyData | DURATION | 28000 | None | 2017 | Novice |
 | [NumPy Beginner   SciPy 2016 Tutorial   Alexandre Chabot LeClerc - YouTube](https://www.youtube.com/watch?v=gtejJ3RCddE) | NAME | Enthought | DURATION | 56000 | None | 2016 | Novice |
