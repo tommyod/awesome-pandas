@@ -1,23 +1,28 @@
 ![Awesome pandas logo](/img/awesome_pandas.png)
 
-
 # awesome-pandas
 A collection of resources for [pandas](http://pandas.pydata.org/) 
 ([Python](https://www.python.org/)) and related subjects.
 
-**Contents:** This page is divided into three parts.
+**Contents:** This is an unofficial collection of resources for learning pandas,
+an open source Python library for data analysis. Here you will find videos,
+cheat-sheets, tutorials and books / papers. The curated list is divided into
+three parts:
 
-1. **pandas resources** - A collection of videos, cheat-sheets, tutorials and books related directly to pandas.
-2. **Data analysis with Python resources** - Material related to adjacent 
-  Python libraries and software such as 
+1. **pandas resources** - A collection of videos, cheat-sheets, tutorials and 
+   books *directly related* to pandas.
+2. **Data analysis with Python resources** - Material related to *adjacent 
+  Python libraries and software* such as 
   [NumPy](http://www.numpy.org/),
   [scipy](https://www.scipy.org/), 
   [matplotlib](https://matplotlib.org/), 
   [seaborn](https://seaborn.pydata.org/),
   [statsmodels](http://www.statsmodels.org/stable/) and
   [Jupyter](http://jupyter.org/).
-3. **Miscellaneous related resources** - Resources related to general data
+3. **Miscellaneous related resources** - Resources related to *general* data
   analysis, algorithms, computer science, machine learning, statistics, etc.
+
+> Pull requests are very welcome.
 
 --------------------------------------------------------------------------------
 
@@ -47,7 +52,7 @@ quantified roughly as follows:
 | [Predicting sports winners with pandas](https://www.youtube.com/watch?v=k7hSD_-gWMw) | Robert Layton | PyCon Australia | 0:38 | 13000 | 2015 | :sweat_smile: |
 | [Pandas from the Inside](https://www.youtube.com/watch?v=YGk09nK_xnM) | Stephen Simmons | PyData | 1:17 | 3000 | 2017 | :scream: |
 
-*Know of a recent, good video? Send a pull request!* +1
+*Know of a recent, good video? Send a pull request!* :+1:
 
 ### (1.2) :exclamation: Cheat-sheets
 
@@ -118,8 +123,8 @@ quantified roughly as follows:
 | [Python Profiling & Performance](https://www.youtube.com/watch?v=Dgnp28Ijm_M) | Mahmoud Hashemi | SF Python | 0:28 | 1000 | python | 2016 | Novice |
 
 ### (2.2) :exclamation: Cheat-sheets
-* http://datasciencefree.com/numpy.pdf
-* https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf
+* [Numpy Cheat Sheet](http://datasciencefree.com/numpy.pdf)
+* [Python For Data Science - Scikit-Learn](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf)
 
 ### (2.3) :mortar_board: Tutorials
 
