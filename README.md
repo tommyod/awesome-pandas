@@ -31,26 +31,25 @@ A collection of resources for pandas (Python) and related subjects.
 ### Videos
 
 The videos below were collected in December of 2017.
-They are all related to pandas, and the **Level** is categorized roughly as follows:
+They are all related to pandas, and the **Level** of a video is quantified roughly as follows:
 
-* :smiley: : Beginner - requires little knowledge to jump into, elementary topics.
-* :sweat_smile: : Intermediate - some prior knowledge needed, more technical. 
-* :scream: : Advanced - very technical, or discusses advanced topics.
+* :smiley: : **Beginner** - requires little knowledge to jump into, elementary topics.
+* :sweat_smile: : **Intermediate** - some prior knowledge needed, more technical. 
+* :scream: : **Advanced** - very technical, or discusses advanced topics.
 
-
-| Title | Speaker | Uploader | Time | Views | Keyword | Year | Level |
+| Title | Speaker | Uploader | Time | Views | Year | Level |
 | ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
-| [Introduction Into Pandas](https://www.youtube.com/watch?v=-NR-ynQg0YM) | Daniel Chen | Python Tutorial | 1:28 | 46000 | pandas | 2017 | :smiley: |
-| [Introduction To Data Analytics With Pandas](https://www.youtube.com/watch?v=5XGycFIe8qE) | Quentin Caudron | Python Tutorial | 1:51 | 25000 | pandas | 2017 | :smiley: |
-| [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw) [[repo](https://github.com/brandon-rhodes/pycon-pandas-tutorial)] | Brandon Rhodes | PyCon 2015 | 2:24 | 91000 | pandas | 2015 | :smiley: |
-| [Pandas for Data Analysis](https://www.youtube.com/watch?v=oGzU688xCUs) [[repo](https://github.com/chendaniely/scipy-2017-tutorial-pandas)] | Daniel Chen | Enthought | 3:45 | 13000 | pandas | 2017 | :sweat_smile: |
-| [Optimizing Pandas Code for Speed and Efficiency](https://www.youtube.com/watch?v=HN5d490_KKk) | Sofia Heisler | PyCon 2017 | 0:29 | 12000 | pandas | 2017 | :sweat_smile: |
-| [A Visual Guide To Pandas](https://www.youtube.com/watch?v=9d5-Ti6onew) | Jason Wirth | Next Day Video | 0:26 | 49000 | pandas | 2015 | :smiley: |
-| [Analyzing and Manipulating Data with Pandas](https://www.youtube.com/watch?v=6ohWS7J1hVA) [[repo](https://github.com/jonathanrocher/pandas_tutorial)] | Jonathan Rocher | Enthought | 3:33 | 22000 | pandas | 2016 | :smiley: |
-| [Time Series Analysis](https://www.youtube.com/watch?v=zmfe2RaX-14) [[repo](https://github.com/ikding/pycon_time_series)] | Aileen Nielsen | PyCon 2017 | 3:11 | 9000 | pandas | 2017 | :sweat_smile: |
-| [Pandas from the Inside](https://www.youtube.com/watch?v=CowlcrtSyME) | Stephen Simmons | PyData | 1:20 | 9000 | pandas | 2016 | :scream: |
-| [Predicting sports winners with pandas and scikit-learn](https://www.youtube.com/watch?v=k7hSD_-gWMw) | Robert Layton | PyCon Australia | 0:38 | 13000 | pandas | 2015 | :sweat_smile: |
-| [Pandas from the Inside](https://www.youtube.com/watch?v=YGk09nK_xnM) | Stephen Simmons | PyData | 1:17 | 3000 | pandas | 2017 | :scream: |
+| [Introduction Into Pandas](https://www.youtube.com/watch?v=-NR-ynQg0YM) | Daniel Chen | Python Tutorial | 1:28 | 46000 | 2017 | :smiley: |
+| [Introduction To Data Analytics With Pandas](https://www.youtube.com/watch?v=5XGycFIe8qE) | Quentin Caudron | Python Tutorial | 1:51 | 25000 | 2017 | :smiley: |
+| [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw) [[repo](https://github.com/brandon-rhodes/pycon-pandas-tutorial)] | Brandon Rhodes | PyCon 2015 | 2:24 | 91000 | 2015 | :smiley: |
+| [Pandas for Data Analysis](https://www.youtube.com/watch?v=oGzU688xCUs) [[repo](https://github.com/chendaniely/scipy-2017-tutorial-pandas)] | Daniel Chen | Enthought | 3:45 | 13000 | 2017 | :sweat_smile: |
+| [Optimizing Pandas Code for Speed and Efficiency](https://www.youtube.com/watch?v=HN5d490_KKk) | Sofia Heisler | PyCon 2017 | 0:29 | 12000 | 2017 | :sweat_smile: |
+| [A Visual Guide To Pandas](https://www.youtube.com/watch?v=9d5-Ti6onew) | Jason Wirth | Next Day Video | 0:26 | 49000 | 2015 | :smiley: |
+| [Analyzing and Manipulating Data with Pandas](https://www.youtube.com/watch?v=6ohWS7J1hVA) [[repo](https://github.com/jonathanrocher/pandas_tutorial)] | Jonathan Rocher | Enthought | 3:33 | 22000 | 2016 | :smiley: |
+| [Time Series Analysis](https://www.youtube.com/watch?v=zmfe2RaX-14) [[repo](https://github.com/ikding/pycon_time_series)] | Aileen Nielsen | PyCon 2017 | 3:11 | 9000 | 2017 | :sweat_smile: |
+| [Pandas from the Inside](https://www.youtube.com/watch?v=CowlcrtSyME) | Stephen Simmons | PyData | 1:20 | 9000 | 2016 | :scream: |
+| [Predicting sports winners with pandas and scikit-learn](https://www.youtube.com/watch?v=k7hSD_-gWMw) | Robert Layton | PyCon Australia | 0:38 | 13000 | 2015 | :sweat_smile: |
+| [Pandas from the Inside](https://www.youtube.com/watch?v=YGk09nK_xnM) | Stephen Simmons | PyData | 1:17 | 3000 | 2017 | :scream: |
 
 
 * (Brandon Rhodes - Pandas From The Ground Up - PyCon 2015) https://www.youtube.com/watch?v=5JnMutdy6Fw
