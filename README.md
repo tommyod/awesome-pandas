@@ -38,6 +38,80 @@ A collection of resources for pandas (Python) and related subjects.
 
 | Title | Speaker | Uploader | Time | Views | Keyword | Year | Level |
 | ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
+| [Introduction Into Pandas](https://www.youtube.com/watch?v=-NR-ynQg0YM) | Daniel Chen | Python Tutorial | 1:28 | 46000 | pandas | 2017 | :snake: |
+| [Introduction To Data Analytics With Pandas](https://www.youtube.com/watch?v=5XGycFIe8qE) | Quentin Caudron | Python Tutorial | 1:51 | 25000 | pandas | 2017 | :snake: |
+| [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw) [[repo](https://github.com/brandon-rhodes/pycon-pandas-tutorial)] | Brandon Rhodes | PyCon 2015 | 2:24 | 91000 | pandas | 2015 
+| [Pandas for Data Analysis](https://www.youtube.com/watch?v=oGzU688xCUs) [[repo](https://github.com/chendaniely/scipy-2017-tutorial-pandas)] | Daniel Chen | Enthought | 3:45 | 13000 | pandas | 2017 | :snake::snake: |
+| [Optimizing Pandas Code for Speed and Efficiency](https://www.youtube.com/watch?v=HN5d490_KKk) | Sofia Heisler | PyCon 2017 | 0:29 | 12000 | pandas | 2017 | :snake: :snake: |
+| [A Visual Guide To Pandas](https://www.youtube.com/watch?v=9d5-Ti6onew) | Jason Wirth | Next Day Video | 0:26 | 49000 | pandas | 2015 | :snake: |
+| [Analyzing and Manipulating Data with Pandas](https://www.youtube.com/watch?v=6ohWS7J1hVA) [[repo](https://github.com/jonathanrocher/pandas_tutorial)] | Jonathan Rocher | Enthought | 3:33 | 22000 | pandas | 2016 | :snake: |
+| [Time Series Analysis](https://www.youtube.com/watch?v=zmfe2RaX-14) [[repo](https://github.com/ikding/pycon_time_series)] | Aileen Nielsen | PyCon 2017 | 3:11 | 9000 | pandas | 2017 | :snake: :snake: |
+| [Pandas from the Inside](https://www.youtube.com/watch?v=CowlcrtSyME) | Stephen Simmons | PyData | 1:20 | 9000 | pandas | 2016 | :snake: :snake: :snake: |
+| [Predicting sports winners with pandas and scikit-learn](https://www.youtube.com/watch?v=k7hSD_-gWMw) | Robert Layton | PyCon Australia | 0:38 | 13000 | pandas | 2015 | Novice |
+| [Pandas from the Inside](https://www.youtube.com/watch?v=YGk09nK_xnM) | Stephen Simmons | PyData | 1:17 | 3000 | pandas | 2017 | Novice |
+
+
+* (Brandon Rhodes - Pandas From The Ground Up - PyCon 2015) https://www.youtube.com/watch?v=5JnMutdy6Fw
+* (A Visual Guide To Pandas) https://www.youtube.com/watch?v=9d5-Ti6onew
+* (Stephen Simmons | Pandas from the Inside) https://www.youtube.com/watch?v=CowlcrtSyME
+* (Stephen Simmons - Pandas from the Inside / "Big Pandas") https://www.youtube.com/watch?v=YGk09nK_xnM
+* (Pandas for Data Analysis | SciPy 2017 Tutorial | Daniel Chen) https://www.youtube.com/watch?v=oGzU688xCUs
+* (Introduction To Data Analytics With Pandas) https://www.youtube.com/watch?v=5XGycFIe8qE
+* (Introduction Into Pandas: Python Tutorial) https://www.youtube.com/watch?v=-NR-ynQg0YM
+
+### Cheat-sheets
+
+* https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
+* https://s3.amazonaws.com/quandl-static-content/Documents/Quandl+-+Pandas,+SciPy,+NumPy+Cheat+Sheet.pdf
+* http://www.webpages.uidaho.edu/~stevel/504/Pandas%20DataFrame%20Notes.pdf
+* https://assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf
+* https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Pandas_Cheat_Sheet_2.pdf
+
+### Tutorials
+* https://github.com/jorisvandenbossche/pandas-tutorial
+* https://github.com/guipsamora/pandas_exercises
+* https://github.com/brandon-rhodes/pycon-pandas-tutorial
+* https://github.com/jadianes/winerama-recommender-tutorial
+* https://github.com/jonathanrocher/pandas_tutorial
+* https://github.com/chendaniely/scipy-2017-tutorial-pandas
+* https://github.com/tdpetrou/Learn-Pandas
+* https://github.com/adeshpande3/Pandas-Tutorial
+* https://github.com/GaelVaroquaux/sklearn_pandas_tutorial
+* https://github.com/vi3k6i5/pandas_basics
+* https://github.com/california-civic-data-coalition/first-python-notebook
+
+### Books
+
+## Data analysis with Python resources
+
+### Videos
+* (Introduction to NumPy | SciPy 2015 Tutorial | Eric Jones) https://www.youtube.com/watch?v=1zmV8lZsHF4
+
+### Cheat-sheets
+* http://datasciencefree.com/numpy.pdf
+* https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf
+
+### Tutorials
+
+### Books
+
+## Data analysis resources
+
+### Books
+
+### Papers
+
+###
+
+
+
+
+--------------------------------------------------------------------------------
+
+Every video is below.
+
+| Title | Speaker | Uploader | Time | Views | Keyword | Year | Level |
+| ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
 | [How to become a Data Scientist in 6 months](https://www.youtube.com/watch?v=rIofV14c0tc) | Tetiana Ivanova | PyData | 0:56 | 148000 | misc | 2016 | :snake: |
 | [Introduction Into Pandas](https://www.youtube.com/watch?v=-NR-ynQg0YM) | Daniel Chen | Python Tutorial | 1:28 | 46000 | pandas | 2017 | :snake: |
 | [So you want to be a Python expert?](https://www.youtube.com/watch?v=cKPlPJyQrt4) | James Powell | PyData | 1:54 | 28000 | python | 2017 | :snake::snake::snake: |
@@ -98,56 +172,3 @@ A collection of resources for pandas (Python) and related subjects.
 | [Jupyter Advanced Topics Tutorial](https://www.youtube.com/watch?v=38R7jiCspkw) [[repo](https://github.com/jupyter/scipy-advanced-tutorial)] | Jonathan Frederic & Matthias Bussonier | Enthought | 2:48 | 4000 | jupyter | 2015 | Novice |
 | [Using randomness to make code much faster](https://www.youtube.com/watch?v=7i6kBz1kZ-A) | Rachel Thomas | SF Python | 0:54 | 1000 | scipy | 2017 | Novice |
 | [Python Profiling & Performance](https://www.youtube.com/watch?v=Dgnp28Ijm_M) | Mahmoud Hashemi | SF Python | 0:28 | 1000 | python | 2016 | Novice |
-
-
-* (Brandon Rhodes - Pandas From The Ground Up - PyCon 2015) https://www.youtube.com/watch?v=5JnMutdy6Fw
-* (A Visual Guide To Pandas) https://www.youtube.com/watch?v=9d5-Ti6onew
-* (Stephen Simmons | Pandas from the Inside) https://www.youtube.com/watch?v=CowlcrtSyME
-* (Stephen Simmons - Pandas from the Inside / "Big Pandas") https://www.youtube.com/watch?v=YGk09nK_xnM
-* (Pandas for Data Analysis | SciPy 2017 Tutorial | Daniel Chen) https://www.youtube.com/watch?v=oGzU688xCUs
-* (Introduction To Data Analytics With Pandas) https://www.youtube.com/watch?v=5XGycFIe8qE
-* (Introduction Into Pandas: Python Tutorial) https://www.youtube.com/watch?v=-NR-ynQg0YM
-
-### Cheat-sheets
-
-* https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
-* https://s3.amazonaws.com/quandl-static-content/Documents/Quandl+-+Pandas,+SciPy,+NumPy+Cheat+Sheet.pdf
-* http://www.webpages.uidaho.edu/~stevel/504/Pandas%20DataFrame%20Notes.pdf
-* https://assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf
-* https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Pandas_Cheat_Sheet_2.pdf
-
-### Tutorials
-* https://github.com/jorisvandenbossche/pandas-tutorial
-* https://github.com/guipsamora/pandas_exercises
-* https://github.com/brandon-rhodes/pycon-pandas-tutorial
-* https://github.com/jadianes/winerama-recommender-tutorial
-* https://github.com/jonathanrocher/pandas_tutorial
-* https://github.com/chendaniely/scipy-2017-tutorial-pandas
-* https://github.com/tdpetrou/Learn-Pandas
-* https://github.com/adeshpande3/Pandas-Tutorial
-* https://github.com/GaelVaroquaux/sklearn_pandas_tutorial
-* https://github.com/vi3k6i5/pandas_basics
-* https://github.com/california-civic-data-coalition/first-python-notebook
-
-### Books
-
-## Data analysis with Python resources
-
-### Videos
-* (Introduction to NumPy | SciPy 2015 Tutorial | Eric Jones) https://www.youtube.com/watch?v=1zmV8lZsHF4
-
-### Cheat-sheets
-* http://datasciencefree.com/numpy.pdf
-* https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf
-
-### Tutorials
-
-### Books
-
-## Data analysis resources
-
-### Books
-
-### Papers
-
-###
