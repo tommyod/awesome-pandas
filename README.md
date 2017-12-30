@@ -1,3 +1,6 @@
+![Awesome pandas logo](/img/awesome_pandas.png)
+
+
 # awesome-pandas
 A collection of resources for [pandas](http://pandas.pydata.org/) 
 ([Python](https://www.python.org/)) and related subjects.
