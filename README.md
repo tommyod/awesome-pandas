@@ -1,6 +1,29 @@
 # awesome-pandas
 A collection of resources for pandas (Python) and related subjects.
 
+**Table of contents**
+
+* pandas resources
+
+  * Videos
+  * Cheat-sheets
+  * Tutorials
+  * Books
+
+* Data analysis with Python resources
+
+  * Videos
+  * Cheat-sheets
+  * Tutorials
+  * Books
+
+* Miscellaneous related resources
+
+  * Videos
+  * Cheat-sheets
+  * Tutorials
+  * Books
+
 --------------------------------------------------------------------------------
 
 ## pandas resources
@@ -40,26 +63,22 @@ A collection of resources for pandas (Python) and related subjects.
 | [Applied Time Series Econometrics](https://www.youtube.com/watch?v=tJ-O3hk1vRw) | Jeffrey Yau | PyData | 1:39 | 17000 | statsmodels | 2016 | :snake: :snake: |
 | [Machine Learning with scikit learn](https://www.youtube.com/watch?v=2kT6QOVSgSg) [[repo](https://github.com/amueller/scipy-2017-sklearn)] | Andreas Mueller & Alexandre Gram | Enthought | 3:10 | 8000 | sklearn | 2017 | :snake: :snake: |
 | [Introduction to Numerical Computing with NumPy](https://www.youtube.com/watch?v=lKcwuPnSHIQ) | Dillon Niederhut | Enthought | 2:27 | 8000 | NumPy | 2017 | :snake: |
-| [Matthew Rocklin   Dask A Pythonic Distributed Data Science Framework   PyCon 2017 - YouTube](https://www.youtube.com/watch?v=RA_2qdipVng) | NAME | PyCon 2017 | DURATION | 7000 | None | 2017 | Novice |
-| [Christopher Fonnesbeck - Introduction to Statistical Modeling with Python - PyCon 2017 - YouTube](https://www.youtube.com/watch?v=TMmSESkhRtI) | NAME | PyCon 2017 | DURATION | 7000 | None | 2017 | Novice |
-| [Fully Convolutional Networks for Image Segmentation   SciPy 2017   Daniil Pakhomov - YouTube](https://www.youtube.com/watch?v=-lXfsWP7DJ8) | NAME | Enthought | DURATION | 7000 | None | 2017 | Novice |
-| [Chloe Mawer, Jonathan Whitmore - Exploratory data analysis in python - PyCon 2017 - YouTube](https://www.youtube.com/watch?v=W5WE9Db2RLU) | NAME | PyCon 2017 | DURATION | 7000 | None | 2017 | Novice |
-| [Christopher Roach   Visualizing Geographic Data With Python - YouTube](https://www.youtube.com/watch?v=ZIEyHdvF474) | NAME | PyData | DURATION | 14000 | None | 2016 | Novice |
-| [Builtin Superheroes (Screencast) - YouTube](https://www.youtube.com/watch?v=j6VSAsKAj98) | NAME | David Beazley | DURATION | 12000 | None | 2016 | Novice |
-| [Python's Class Development Toolkit - YouTube](https://www.youtube.com/watch?v=HTLu2DFOdTg) | NAME | Next Day Video | DURATION | 80000 | None | 2013 | Novice |
-| [Sebastian Raschka   Learning scikit learn - An Introduction to Machine Learning in Python - YouTube](https://www.youtube.com/watch?v=9fOWryQq9J8) | NAME | PyData | DURATION | 12000 | None | 2016 | Novice |
-| [Alex Rubinsteyn: Python Libraries for Deep Learning with Sequences - YouTube](https://www.youtube.com/watch?v=E92jDCmJNek) | NAME | PyData | DURATION | 23000 | None | 2015 | Novice |
-| [The Other Async (Threads + Async = ❤️) - YouTube](https://www.youtube.com/watch?v=x1ndXuw7S0s) | NAME | David Beazley | DURATION | 5000 | None | 2017 | Novice |
-| [Daniel Chen   Introduction to Pandas - YouTube](https://www.youtube.com/watch?v=dye7rDktJ2E) | NAME | PyData | DURATION | 10000 | None | 2016 | Novice |
-| [Numba - Tell Those C++ Bullies to Get Lost   SciPy 2017 Tutorial   Gil Forsyth & Lorena Barba - YouTube](https://www.youtube.com/watch?v=1AwG0T4gaO0) | NAME | Enthought | DURATION | 5000 | None | 2017 | Novice |
-| [Deploying Interactive Jupyter Dashboards for Visualizing Hundreds of Millions of Datapoints, in 30 L - YouTube](https://www.youtube.com/watch?v=8Jktm-Imt-I) | NAME | Enthought | DURATION | 5000 | None | 2017 | Novice |
-| [Divya Sardana   Building Recommender Systems Using Python - YouTube](https://www.youtube.com/watch?v=39vJRxIPSxw) | NAME | PyData | DURATION | 10000 | None | 2016 | Novice |
-| [Joel Grus: Learning Data Science Using Functional Python - YouTube](https://www.youtube.com/watch?v=ThS4juptJjQ) | NAME | PyData | DURATION | 18000 | None | 2015 | Novice |
-| [Stephen Simmons   Pandas from the Inside - YouTube](https://www.youtube.com/watch?v=CowlcrtSyME) | NAME | PyData | DURATION | 9000 | None | 2016 | Novice |
-| [Curious Course on Coroutines and Concurrency - YouTube](https://www.youtube.com/watch?v=Z_OAlIhXziw) | NAME | David Beazley | DURATION | 9000 | None | 2016 | Novice |
-| [Anatomy of matplotlib   SciPy 2015 Tutorial   Benjamin Root and Joe Kington - YouTube](https://www.youtube.com/watch?v=MKucn8NtVeI) | NAME | Enthought | DURATION | 18000 | None | 2015 | Novice |
-| [Anatomy of Matplotlib   SciPy 2017 Tutorial   Ben Root - YouTube](https://www.youtube.com/watch?v=rARMKS8jE9g) | NAME | Enthought | DURATION | 4000 | None | 2017 | Novice |
-| [Data Science is Software   SciPy 2016 Tutorial   Peter Bull & Isaac Slavitt - YouTube](https://www.youtube.com/watch?v=EKUy0TSLg04) | NAME | Enthought | DURATION | 9000 | None | 2016 | Novice |
+| [Dask - A Pythonic Distributed Data Science Framework](https://www.youtube.com/watch?v=RA_2qdipVng) | Matthew Rocklin | PyCon 2017 | 0:46 | 7000 | dask | 2017 | :snake: :snake: |
+| [Introduction to Statistical Modeling with Python](https://www.youtube.com/watch?v=TMmSESkhRtI) [[repo](https://github.com/fonnesbeck/intro_stat_modeling_2017)] | Christopher Fonnesbeck | PyCon 2017 | 3:19 | 7000 | scipy | 2017 | :snake: :snake: |
+| [Fully Convolutional Networks for Image Segmentation](https://www.youtube.com/watch?v=-lXfsWP7DJ8) | Daniil Pakhomov | Enthought | 0:20 | 7000 | scipy | 2017 | :snake: |
+| [Exploratory data analysis in python](https://www.youtube.com/watch?v=W5WE9Db2RLU) [[repo](https://github.com/cmawer/pycon-2017-eda-tutorial)] | Chloe Mawer & Jonathan Whitmore | PyCon 2017 | 2:54 | 7000 | scipy | 2017 | :snake: |
+| [Visualizing Geographic Data](https://www.youtube.com/watch?v=ZIEyHdvF474) | Christopher Roach | PyData | 0:31 | 14000 | python | 2016 | :snake: |
+| [Builtin Superheroes](https://www.youtube.com/watch?v=j6VSAsKAj98) | David Beazley | David Beazley | 0:44 | 12000 | python | 2016 | :snake: :snake: |
+| [Python's Class Development Toolkit](https://www.youtube.com/watch?v=HTLu2DFOdTg) | Raymond Hettinger | Next Day Video | 0:45 | 80000 | python | 2013 | :snake: :snake: |
+| [Libraries for Deep Learning with Sequences](https://www.youtube.com/watch?v=E92jDCmJNek) | Alex Rubinsteyn | PyData | 0:44 | 23000 | scipy | 2015 | :snake: :snake: |
+| [The Other Async (Threads + Async = ❤️) - YouTube](https://www.youtube.com/watch?v=x1ndXuw7S0s) | David Beazley | David Beazley | 0:47 | 5000 | python | 2017 | :snake: :snake: :snake:|
+| [Numba - Tell Those C++ Bullies to Get Lost](https://www.youtube.com/watch?v=1AwG0T4gaO0) [[repo](https://github.com/gforsyth/numba_tutorial_scipy2017)] | Gil Forsyth & Lorena Barba | Enthought | 2:25 | 5000 | numba | 2017 | :snake: :snake: |
+| [Deploying Interactive Jupyter Dashboards](https://www.youtube.com/watch?v=8Jktm-Imt-I) | Philipp Rudiger | Enthought | 0:18 | 5000 | jupyter | 2017 | :snake: :snake: |
+| [Data Science Using Functional Python](https://www.youtube.com/watch?v=ThS4juptJjQ) | Joel Grus | PyData | 0:44 | 18000 | python | 2015 | :snake: :snake: |
+| [Pandas from the Inside](https://www.youtube.com/watch?v=CowlcrtSyME) | Stephen Simmons | PyData | 1:20 | 9000 | pandas | 2016 | :snake: :snake: :snake: |
+| [Anatomy of matplotlib](https://www.youtube.com/watch?v=MKucn8NtVeI) [[repo](https://github.com/matplotlib/AnatomyOfMatplotlib)] | Benjamin Root & Joe Kington | Enthought | 3:18 | 18000 | matplotlib | 2015 | :snake: :snake: |
+| [Anatomy of matplotlib](https://www.youtube.com/watch?v=rARMKS8jE9g) [[repo](https://github.com/matplotlib/AnatomyOfMatplotlib)] | Benjamin Root | Enthought | 3:02 | 4000 | matplotlib | 2017 | :snake: :snake: |
+| [Data Science is Software](https://www.youtube.com/watch?v=EKUy0TSLg04) [[repo](https://github.com/drivendata/data-science-is-software)] | Peter Bull & Isaac Slavitt | Enthought | 2:12 | 9000 | jupyter | 2016 | :snake: |
 | [Jake VanderPlas: Machine Learning with Scikit Learn - YouTube](https://www.youtube.com/watch?v=HC0J_SPm9co) | NAME | PyData | DURATION | 16000 | None | 2015 | Novice |
 | [Using Jupyter notebooks to develop and share interactive data displays - YouTube](https://www.youtube.com/watch?v=aXR2d9k9-h4) | NAME | PyCon Australia | DURATION | 8000 | None | 2016 | Novice |
 | [Parallel Python: Analyzing Large Datasets Intermediate   SciPy 2016 Tutorial   Matthew Rocklin & Mi - YouTube](https://www.youtube.com/watch?v=5Md_sSsN51k) | NAME | Enthought | DURATION | 7000 | None | 2016 | Novice |
