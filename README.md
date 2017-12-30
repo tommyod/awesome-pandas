@@ -44,7 +44,7 @@ quantified roughly as follows:
 | [Predicting sports winners with pandas](https://www.youtube.com/watch?v=k7hSD_-gWMw) | Robert Layton | PyCon Australia | 0:38 | 13000 | 2015 | :sweat_smile: |
 | [Pandas from the Inside](https://www.youtube.com/watch?v=YGk09nK_xnM) | Stephen Simmons | PyData | 1:17 | 3000 | 2017 | :scream: |
 
-*Know of a recent, good video? Send a pull request! +1
+*Know of a recent, good video? Send a pull request!* +1
 
 ### (1.2) :exclamation: Cheat-sheets
 
@@ -68,8 +68,8 @@ quantified roughly as follows:
 
 ### (1.4) :blue_book: Books / papers
 
-* [[amazon](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/)] McKinney, Wes. *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython*. 2 edition. Beijing: O’Reilly Media, 2017.
-* [[amazon](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057/)] VanderPlas, Jake. *Python Data Science Handbook: Essential Tools for Working with Data*. 1 edition. Sebastopol, CA: O’Reilly Media, 2016.
+* [[amazon](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/)] McKinney, Wes. *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython*. 2 edition. O’Reilly Media, 2017.
+* [[amazon](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057/)] VanderPlas, Jake. *Python Data Science Handbook: Essential Tools for Working with Data*. 1 edition. O’Reilly Media, 2016.
 
 --------------------------------------------------------------------------------
 
@@ -122,6 +122,8 @@ quantified roughly as follows:
 
 ### (2.4) :blue_book: Books / papers
 
+* [[amazon](https://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287/)] Slatkin, Brett. *Effective Python: 59 Specific Ways to Write Better Python*. 1 edition. Addison-Wesley Professional, 2015.
+* [[amazon](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008/)] Ramalho, Luciano. *Fluent Python*. 1st edition. O’Reilly, 2015.
 * [[amazon](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/)] Géron, Aurélien. *Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*. 1 edition. O’Reilly Media, 2017.
 
 --------------------------------------------------------------------------------
@@ -156,6 +158,9 @@ quantified roughly as follows:
 
 ### (3.4) :blue_book: Books / papers
 
+* [[amazon](https://www.amazon.com/Algorithms-Sanjoy-Dasgupta/dp/0073523402/)] Dasgupta, Sanjoy, Christos H. . Papadimitriou, and Umesh Virkumar. Vazirani. *Algorithms*. Boston, Mass: McGraw Hill, 2008.
+* [[amazon](https://www.amazon.com/Numerical-Linear-Algebra-Lloyd-Trefethen/dp/0898713617/)] Lloyd N. Trefethen. *Numerical Linear Algebra*. Society for Industrial and Applied Mathematics, 1997.
+* [[amazon](https://www.amazon.com/Computations-Hopkins-Studies-Mathematical-Sciences/dp/1421407949/)] Gene H. Golub. *Matrix Computations*. 4th ed. Johns Hopkins Studies in the Mathematical Sciences. Baltimore: Johns Hopkins University Press, 2013.
 --------------------------------------------------------------------------------
 
 Every video is below.
