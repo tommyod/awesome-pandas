@@ -65,20 +65,20 @@ quantified roughly as follows:
 
 ### (1.3) :mortar_board: Tutorials
 
-* [10 Minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
+* :star: [10 Minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
 * [pandas-tutorial](https://github.com/jorisvandenbossche/pandas-tutorial) [Video: [Pandas](https://www.youtube.com/watch?v=Cz_u2If7KbI) & [Advanced Pandas](https://www.youtube.com/watch?v=gS7kVg-4ZaU)]
-* [pandas_exercises](https://github.com/guipsamora/pandas_exercises)
-* [pycon-pandas-tutorial](https://github.com/brandon-rhodes/pycon-pandas-tutorial) [Video: [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw)]
+* :star: [pandas_exercises](https://github.com/guipsamora/pandas_exercises)
+* :star: [pycon-pandas-tutorial](https://github.com/brandon-rhodes/pycon-pandas-tutorial) [Video: [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw)]
 * [pandas_tutorial](https://github.com/jonathanrocher/pandas_tutorial) [Video: [Analyzing and Manipulating Data with Pandas](https://www.youtube.com/watch?v=6ohWS7J1hVA)]
 * [scipy-2017-tutorial-pandas](https://github.com/chendaniely/scipy-2017-tutorial-pandas) [Video: [Pandas for Data Analysis](https://www.youtube.com/watch?v=oGzU688xCUs)]
-* [Learn-Pandas](https://github.com/tdpetrou/Learn-Pandas)
+* :star: [Learn-Pandas](https://github.com/tdpetrou/Learn-Pandas)
 * [Pandas-Tutorial](https://github.com/adeshpande3/Pandas-Tutorial)
 * [sklearn_pandas_tutorial](https://github.com/GaelVaroquaux/sklearn_pandas_tutorial)
 * [pandas_basics](https://github.com/vi3k6i5/pandas_basics)
 * [first-python-notebook](https://github.com/california-civic-data-coalition/first-python-notebook)
-* [pandas-cookbook](https://github.com/jvns/pandas-cookbook)
+* :star: [pandas-cookbook](https://github.com/jvns/pandas-cookbook)
 * [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas)
-* Modern pandas, parts: 
+* :star: Modern pandas. Parts: 
   [1](http://tomaugspurger.github.io/modern-1-intro.html), 
   [2](http://tomaugspurger.github.io/method-chaining.html), 
   [3](http://tomaugspurger.github.io/modern-3-indexes.html), 
@@ -87,15 +87,6 @@ quantified roughly as follows:
   [6](http://tomaugspurger.github.io/modern-6-visualization.html) and 
   [7](http://tomaugspurger.github.io/modern-7-timeseries.html).
 
-
-
-http://tomaugspurger.github.io/modern-1-intro">Modern Pandas</a></li>
-http://tomaugspurger.github.io/method-chaining">Method Chaining</a></li>
-http://tomaugspurger.github.io/modern-3-indexes">Indexes</a></li>
-http://tomaugspurger.github.io/modern-4-performance">Fast Pandas</a></li>
-http://tomaugspurger.github.io/modern-5-tidy">Tidy Data</a></li>
-http://tomaugspurger.github.io/modern-6-visualization">Visualization</a></li>
-http://tomaugspurger.github.io/modern-7-timeseries">Time Series</a></li>
 
 
 ### (1.4) :blue_book: Books / papers
@@ -167,15 +158,14 @@ http://tomaugspurger.github.io/modern-7-timeseries">Time Series</a></li>
 | Title | Speaker | Uploader | Time | Views | Keyword | Year | Level |
 | ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
 | [How to become a Data Scientist in 6 months](https://www.youtube.com/watch?v=rIofV14c0tc) | Tetiana Ivanova | PyData | 0:56 | 148000 | misc | 2016 | :snake: |
-| [So you want to be a Python expert?](https://www.youtube.com/watch?v=cKPlPJyQrt4) | James Powell | PyData | 1:54 | 28000 | python | 2017 | :snake::snake::snake: |
-| [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go) |  Raymond Hettinger | Next Day Video | 0:48 | 340000 | python | 2013 | :snake: |
+| :star: [So you want to be a Python expert?](https://www.youtube.com/watch?v=cKPlPJyQrt4) | James Powell | PyData | 1:54 | 28000 | python | 2017 | :snake::snake::snake: |
+| :star: [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go) |  Raymond Hettinger | Next Day Video | 0:48 | 340000 | python | 2013 | :snake: |
 | [Modern Dictionaries](https://www.youtube.com/watch?v=p33CVV29OG8) | Raymond Hettinger | SF Python | 1:07 | 44000 | python | 2016 | :snake: :snake: |
 | [Keynote on Concurrency](https://www.youtube.com/watch?v=9zinZmE3Ogk) | Raymond Hettinger | SF Python | 1:13 | 15000 | python | 2017 | :snake::snake: |
-| [Pandas for Data Analysis](https://www.youtube.com/watch?v=oGzU688xCUs) [[repo](https://github.com/chendaniely/scipy-2017-tutorial-pandas)] | Daniel Chen | Enthought | 3:45 | 13000 | pandas | 2017 | :snake::snake: |
 | [The Fun of Reinvention](https://www.youtube.com/watch?v=js_0wjzuMfc) | David Beazley | David Beazley | 0:52 | 11000 | python | 2017 | :snake::snake::snake: |
 | [Being a Core Developer in Python](https://www.youtube.com/watch?v=voXVTjwnn-U) | Raymond Hettinger | SF Python | 1:02 | 19000 | python | 2016 | :snake: |
 | [Visualizing Geographic Data](https://www.youtube.com/watch?v=ZIEyHdvF474) | Christopher Roach | PyData | 0:31 | 14000 | python | 2016 | :snake: |
-| [Builtin Superheroes](https://www.youtube.com/watch?v=j6VSAsKAj98) | David Beazley | David Beazley | 0:44 | 12000 | python | 2016 | :snake: :snake: |
+| :star: [Builtin Superheroes](https://www.youtube.com/watch?v=j6VSAsKAj98) | David Beazley | David Beazley | 0:44 | 12000 | python | 2016 | :snake: :snake: |
 | [Python's Class Development Toolkit](https://www.youtube.com/watch?v=HTLu2DFOdTg) | Raymond Hettinger | Next Day Video | 0:45 | 80000 | python | 2013 | :snake: :snake: |
 | [The Other Async (Threads + Async = ❤️) - YouTube](https://www.youtube.com/watch?v=x1ndXuw7S0s) | David Beazley | David Beazley | 0:47 | 5000 | python | 2017 | :snake: :snake: :snake:|
 | [Functional Programming with Python](https://www.youtube.com/watch?v=Ta1bAMOMFOI) | Mike Müller | Next Day Video | 0:27 | 44000 | python | 2013 | Novice |
