@@ -37,6 +37,7 @@ quantified roughly as follows:
 * :smiley: : **Beginner** - requires little knowledge to jump into, elementary topics.
 * :sweat_smile: : **Intermediate** - some prior knowledge needed, more technical. 
 * :scream: : **Advanced** - very technical, or discusses advanced topics.
+* :star: : **Recommended video** - high quality video and audio, great presentation.
 
 | Title | Speaker | Uploader | Time | Views | Year | Level |
 | ----- | ------- | -------- | ---- | ----- | ---- | ----- |
@@ -63,17 +64,16 @@ quantified roughly as follows:
 * [Python For Data Science - pandas](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Pandas_Cheat_Sheet_2.pdf)
 
 ### (1.3) :mortar_board: Tutorials
-* https://github.com/jorisvandenbossche/pandas-tutorial
-* https://github.com/guipsamora/pandas_exercises
-* https://github.com/brandon-rhodes/pycon-pandas-tutorial [Video: [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw)]
-* https://github.com/jadianes/winerama-recommender-tutorial
-* https://github.com/jonathanrocher/pandas_tutorial [Video: [Analyzing and Manipulating Data with Pandas](https://www.youtube.com/watch?v=6ohWS7J1hVA)]
-* https://github.com/chendaniely/scipy-2017-tutorial-pandas [Video: [Pandas for Data Analysis](https://www.youtube.com/watch?v=oGzU688xCUs)]
-* https://github.com/tdpetrou/Learn-Pandas
-* https://github.com/adeshpande3/Pandas-Tutorial
-* https://github.com/GaelVaroquaux/sklearn_pandas_tutorial
-* https://github.com/vi3k6i5/pandas_basics
-* https://github.com/california-civic-data-coalition/first-python-notebook
+* [pandas-tutorial](https://github.com/jorisvandenbossche/pandas-tutorial) [Video: [Pandas](https://www.youtube.com/watch?v=Cz_u2If7KbI) & [Advanced Pandas](https://www.youtube.com/watch?v=gS7kVg-4ZaU)]
+* [pandas_exercises](https://github.com/guipsamora/pandas_exercises)
+* [pycon-pandas-tutorial](https://github.com/brandon-rhodes/pycon-pandas-tutorial) [Video: [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw)]
+* [pandas_tutorial](https://github.com/jonathanrocher/pandas_tutorial) [Video: [Analyzing and Manipulating Data with Pandas](https://www.youtube.com/watch?v=6ohWS7J1hVA)]
+* [scipy-2017-tutorial-pandas](https://github.com/chendaniely/scipy-2017-tutorial-pandas) [Video: [Pandas for Data Analysis](https://www.youtube.com/watch?v=oGzU688xCUs)]
+* [Learn-Pandas](https://github.com/tdpetrou/Learn-Pandas)
+* [Pandas-Tutorial](https://github.com/adeshpande3/Pandas-Tutorial)
+* [sklearn_pandas_tutorial](https://github.com/GaelVaroquaux/sklearn_pandas_tutorial)
+* [pandas_basics](https://github.com/vi3k6i5/pandas_basics)
+* [first-python-notebook](https://github.com/california-civic-data-coalition/first-python-notebook)
 
 ### (1.4) :blue_book: Books / papers
 
