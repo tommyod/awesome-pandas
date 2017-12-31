@@ -43,7 +43,7 @@ quantified roughly as follows:
 | ----- | ------- | -------- | ---- | ----- | ---- | ----- |
 | [Introduction Into Pandas](https://www.youtube.com/watch?v=-NR-ynQg0YM) | Daniel Chen | Python Tutorial | 1:28 | 46000 | 2017 | :smiley: |
 | [Introduction To Data Analytics With Pandas](https://www.youtube.com/watch?v=5XGycFIe8qE) [[repo](https://github.com/QCaudron/pydata_pandas)] | Quentin Caudron | Python Tutorial | 1:51 | 25000 | 2017 | :smiley: |
-| [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw) [[repo](https://github.com/brandon-rhodes/pycon-pandas-tutorial)] | Brandon Rhodes | PyCon 2015 | 2:24 | 91000 | 2015 | :smiley: |
+| :star: [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw) [[repo](https://github.com/brandon-rhodes/pycon-pandas-tutorial)] | Brandon Rhodes | PyCon 2015 | 2:24 | 91000 | 2015 | :smiley: |
 | [Pandas for Data Analysis](https://www.youtube.com/watch?v=oGzU688xCUs) [[repo](https://github.com/chendaniely/scipy-2017-tutorial-pandas)] | Daniel Chen | Enthought | 3:45 | 13000 | 2017 | :sweat_smile: |
 | [Optimizing Pandas Code](https://www.youtube.com/watch?v=HN5d490_KKk) [[repo](https://github.com/sversh/pycon2017-optimizing-pandas)] | Sofia Heisler | PyCon 2017 | 0:29 | 12000 | 2017 | :sweat_smile: |
 | [A Visual Guide To Pandas](https://www.youtube.com/watch?v=9d5-Ti6onew) | Jason Wirth | Next Day Video | 0:26 | 49000 | 2015 | :smiley: |
@@ -64,6 +64,8 @@ quantified roughly as follows:
 * [Python For Data Science - pandas](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Pandas_Cheat_Sheet_2.pdf)
 
 ### (1.3) :mortar_board: Tutorials
+
+* [10 Minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
 * [pandas-tutorial](https://github.com/jorisvandenbossche/pandas-tutorial) [Video: [Pandas](https://www.youtube.com/watch?v=Cz_u2If7KbI) & [Advanced Pandas](https://www.youtube.com/watch?v=gS7kVg-4ZaU)]
 * [pandas_exercises](https://github.com/guipsamora/pandas_exercises)
 * [pycon-pandas-tutorial](https://github.com/brandon-rhodes/pycon-pandas-tutorial) [Video: [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw)]
@@ -74,6 +76,27 @@ quantified roughly as follows:
 * [sklearn_pandas_tutorial](https://github.com/GaelVaroquaux/sklearn_pandas_tutorial)
 * [pandas_basics](https://github.com/vi3k6i5/pandas_basics)
 * [first-python-notebook](https://github.com/california-civic-data-coalition/first-python-notebook)
+* [pandas-cookbook](https://github.com/jvns/pandas-cookbook)
+* [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas)
+* Modern pandas, parts: 
+  [1](http://tomaugspurger.github.io/modern-1-intro.html), 
+  [2](http://tomaugspurger.github.io/method-chaining.html), 
+  [3](http://tomaugspurger.github.io/modern-3-indexes.html), 
+  [4](http://tomaugspurger.github.io/modern-4-performance.html), 
+  [5](http://tomaugspurger.github.io/modern-5-tidy.html), 
+  [6](http://tomaugspurger.github.io/modern-6-visualization.html) and 
+  [7](http://tomaugspurger.github.io/modern-7-timeseries.html).
+
+
+
+http://tomaugspurger.github.io/modern-1-intro">Modern Pandas</a></li>
+http://tomaugspurger.github.io/method-chaining">Method Chaining</a></li>
+http://tomaugspurger.github.io/modern-3-indexes">Indexes</a></li>
+http://tomaugspurger.github.io/modern-4-performance">Fast Pandas</a></li>
+http://tomaugspurger.github.io/modern-5-tidy">Tidy Data</a></li>
+http://tomaugspurger.github.io/modern-6-visualization">Visualization</a></li>
+http://tomaugspurger.github.io/modern-7-timeseries">Time Series</a></li>
+
 
 ### (1.4) :blue_book: Books / papers
 
