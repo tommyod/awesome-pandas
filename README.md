@@ -50,7 +50,8 @@ quantified roughly as follows:
 | [Time Series Analysis](https://www.youtube.com/watch?v=zmfe2RaX-14) [[repo](https://github.com/ikding/pycon_time_series)] | Aileen Nielsen | PyCon 2017 | 3:11 | 9000 | 2017 | :sweat_smile: |
 | [Predicting sports winners with pandas](https://www.youtube.com/watch?v=k7hSD_-gWMw) | Robert Layton | PyCon Australia | 0:38 | 13000 | 2015 | :sweat_smile: |
 | [Pandas from the Inside](https://www.youtube.com/watch?v=YGk09nK_xnM) [[repo](https://github.com/stevesimmons/pydata-berlin2017-pandas-and-dask-from-the-inside)] [[2016 talk](https://www.youtube.com/watch?v=CowlcrtSyME)] | Stephen Simmons | PyData | 1:17 | 3000 | 2017 | :scream: |
-
+| [Pandas](https://www.youtube.com/watch?v=Cz_u2If7KbI) [[repo](https://github.com/jorisvandenbossche/pandas-tutorial)] | Joris Van den Bossche | EuroSciPy | 1:31 | 0 | 2017 | :smiley: |
+| [Advanced Pandas](https://www.youtube.com/watch?v=gS7kVg-4ZaU) [[repo](https://github.com/jorisvandenbossche/pandas-tutorial)] | Joris Van den Bossche | EuroSciPy | 1:32 | 0  | 2017 | :smiley: |
 
 *Know of a recent, good video? Send a pull request!* :+1:
 
