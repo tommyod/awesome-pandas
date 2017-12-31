@@ -148,8 +148,8 @@ quantified roughly as follows:
 * [[amazon](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008/)] Ramalho, Luciano. *Fluent Python*. 1st edition. O’Reilly, 2015.
 * [[amazon](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/)] Géron, Aurélien. *Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*. 1 edition. O’Reilly Media, 2017.
 
-* [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4161295/pdf/pcbi.1003833.pdf)]
-* [[pdf](http://vita.had.co.nz/papers/tidy-data.pdf)]
+* [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4161295/pdf/pcbi.1003833.pdf)] P Rougier, Nicolas, Michael Droettboom, and Philip Bourne. "*Ten Simple Rules for Better Figures.*" PLoS Computational Biology 10 (September 1, 2014): e1003833. https://doi.org/10.1371/journal.pcbi.1003833.
+* [[pdf](http://vita.had.co.nz/papers/tidy-data.pdf)] *Tidy Data* | Wickham | Journal of Statistical Software. Accessed December 31, 2017. https://doi.org/10.18637/jss.v059.i10.
 --------------------------------------------------------------------------------
 
 ## (3) Miscellaneous related resources
