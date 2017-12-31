@@ -64,10 +64,10 @@ quantified roughly as follows:
 ### (1.3) :mortar_board: Tutorials
 * https://github.com/jorisvandenbossche/pandas-tutorial
 * https://github.com/guipsamora/pandas_exercises
-* https://github.com/brandon-rhodes/pycon-pandas-tutorial
+* https://github.com/brandon-rhodes/pycon-pandas-tutorial [Video: [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw)]
 * https://github.com/jadianes/winerama-recommender-tutorial
-* https://github.com/jonathanrocher/pandas_tutorial
-* https://github.com/chendaniely/scipy-2017-tutorial-pandas
+* https://github.com/jonathanrocher/pandas_tutorial [Video: [Analyzing and Manipulating Data with Pandas](https://www.youtube.com/watch?v=6ohWS7J1hVA)]
+* https://github.com/chendaniely/scipy-2017-tutorial-pandas [Video: [Pandas for Data Analysis](https://www.youtube.com/watch?v=oGzU688xCUs)]
 * https://github.com/tdpetrou/Learn-Pandas
 * https://github.com/adeshpande3/Pandas-Tutorial
 * https://github.com/GaelVaroquaux/sklearn_pandas_tutorial
