@@ -156,7 +156,6 @@ quantified roughly as follows:
 
 | Title | Speaker | Uploader | Time | Views | Keyword | Year | Level |
 | ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
-
 | :star: [So you want to be a Python expert?](https://www.youtube.com/watch?v=cKPlPJyQrt4) | James Powell | PyData | 1:54 | 28000 | python | 2017 | :snake::snake::snake: |
 | :star: [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go) |  Raymond Hettinger | Next Day Video | 0:48 | 340000 | python | 2013 | :snake: |
 | :star: [Builtin Superheroes](https://www.youtube.com/watch?v=j6VSAsKAj98) | David Beazley | David Beazley | 0:44 | 12000 | python | 2016 | :snake: :snake: |
