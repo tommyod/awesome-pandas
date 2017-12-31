@@ -100,41 +100,41 @@ quantified roughly as follows:
 ### (2.1) :tv: Videos
 | Title | Speaker | Uploader | Time | Views | Keyword | Year | Level |
 | ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
-| [NumPy Beginner](https://www.youtube.com/watch?v=gtejJ3RCddE) [[repo](https://github.com/enthought/Numpy-Tutorial-SciPyConf-2016)] | Alexandre Chabot LeClerc | Enthought | 2:47 | 56000 | NumPy | 2016 | :snake: :snake: |
-| [Machine Learning](https://www.youtube.com/watch?v=OB1reY6IX-o) | Andreas Mueller & Sebastian Raschka | Enthought | 3:03 | 47000 | sklearn | 2016 | :snake: :snake: |
-| [The Python Visualization Landscape](https://www.youtube.com/watch?v=FytuB8nFHPQ) | Jake VanderPlas | PyCon 2017 | 0:33 | 21000 | python | 2017 | :snake: |
-| [JupyterLab: Building Blocks for Interactive Computing](https://www.youtube.com/watch?v=Ejh0ftSjk6g) | Brian Granger | Enthought | 0:29 | 28000 | jupyter | 2016 | :snake: |
-| [Machine Learning with Scikit Learn](https://www.youtube.com/watch?v=80fZrVMurPM) [[repo](https://github.com/amueller/scipy_2015_sklearn_tutorial)] | Andreas Mueller & Kyle Kastner | Enthought | 3:22 | 48000 | sklearn | 2015 | :snake: :snake: |
-| [Machine Learning for Time Series Data in Python](https://www.youtube.com/watch?v=ZgHGCfwExw0) | Brett Naul | Enthought | 0:24 | 24000 | cesium | 2016 | :snake: |
-| [Computational Statistics](https://www.youtube.com/watch?v=He9MCbs1wgE) [[repo](https://github.com/AllenDowney/CompStats)] | Allen Downey | Enthought | 2:05 | 10000 | scipy | 2017 | :snake: :snake: |
-| [Time Series Analysis](https://www.youtube.com/watch?v=zmfe2RaX-14) [[repo](https://github.com/ikding/pycon_time_series)] | Aileen Nielsen | PyCon 2017 | 3:11 | 9000 | pandas | 2017 | :snake: :snake: |
-| [Learning TensorFlow](https://www.youtube.com/watch?v=bvHgESVuS6Q) | Robert Layton | PyCon Australia | 0:40 | 18000 | tensorflow | 2016 | :snake: :snake: |
-| [JupyterHub: Deploying Jupyter Notebooks](https://www.youtube.com/watch?v=gSVvxOchT8Y) | Min Ragan Kelley & Thomas Kluyver | PyData | 1:36 | 17000 | jupyter | 2016 | :snake: |
-| [Applied Time Series Econometrics](https://www.youtube.com/watch?v=tJ-O3hk1vRw) | Jeffrey Yau | PyData | 1:39 | 17000 | statsmodels | 2016 | :snake: :snake: |
-| [Machine Learning with scikit learn](https://www.youtube.com/watch?v=2kT6QOVSgSg) [[repo](https://github.com/amueller/scipy-2017-sklearn)] | Andreas Mueller & Alexandre Gram | Enthought | 3:10 | 8000 | sklearn | 2017 | :snake: :snake: |
-| [Introduction to Numerical Computing with NumPy](https://www.youtube.com/watch?v=lKcwuPnSHIQ) | Dillon Niederhut | Enthought | 2:27 | 8000 | NumPy | 2017 | :snake: |
-| [Dask - A Pythonic Distributed Data Science Framework](https://www.youtube.com/watch?v=RA_2qdipVng) | Matthew Rocklin | PyCon 2017 | 0:46 | 7000 | dask | 2017 | :snake: :snake: |
-| [Introduction to Statistical Modeling with Python](https://www.youtube.com/watch?v=TMmSESkhRtI) [[repo](https://github.com/fonnesbeck/intro_stat_modeling_2017)] | Christopher Fonnesbeck | PyCon 2017 | 3:19 | 7000 | scipy | 2017 | :snake: :snake: |
-| [Fully Convolutional Networks for Image Segmentation](https://www.youtube.com/watch?v=-lXfsWP7DJ8) | Daniil Pakhomov | Enthought | 0:20 | 7000 | scipy | 2017 | :snake: |
-| [Exploratory data analysis in python](https://www.youtube.com/watch?v=W5WE9Db2RLU) [[repo](https://github.com/cmawer/pycon-2017-eda-tutorial)] | Chloe Mawer & Jonathan Whitmore | PyCon 2017 | 2:54 | 7000 | scipy | 2017 | :snake: |
-| [Libraries for Deep Learning with Sequences](https://www.youtube.com/watch?v=E92jDCmJNek) | Alex Rubinsteyn | PyData | 0:44 | 23000 | scipy | 2015 | :snake: :snake: |
-| [Numba - Tell Those C++ Bullies to Get Lost](https://www.youtube.com/watch?v=1AwG0T4gaO0) [[repo](https://github.com/gforsyth/numba_tutorial_scipy2017)] | Gil Forsyth & Lorena Barba | Enthought | 2:25 | 5000 | numba | 2017 | :snake: :snake: |
-| [Deploying Interactive Jupyter Dashboards](https://www.youtube.com/watch?v=8Jktm-Imt-I) | Philipp Rudiger | Enthought | 0:18 | 5000 | jupyter | 2017 | :snake: :snake: |
-| [Data Science Using Functional Python](https://www.youtube.com/watch?v=ThS4juptJjQ) | Joel Grus | PyData | 0:44 | 18000 | python | 2015 | :snake: :snake: |
-| [Anatomy of matplotlib](https://www.youtube.com/watch?v=MKucn8NtVeI) [[repo](https://github.com/matplotlib/AnatomyOfMatplotlib)] | Benjamin Root & Joe Kington | Enthought | 3:18 | 18000 | matplotlib | 2015 | :snake: :snake: |
-| [Anatomy of matplotlib](https://www.youtube.com/watch?v=rARMKS8jE9g) [[repo](https://github.com/matplotlib/AnatomyOfMatplotlib)] | Benjamin Root | Enthought | 3:02 | 4000 | matplotlib | 2017 | :snake: :snake: |
-| [Data Science is Software](https://www.youtube.com/watch?v=EKUy0TSLg04) [[repo](https://github.com/drivendata/data-science-is-software)] | Peter Bull & Isaac Slavitt | Enthought | 2:12 | 9000 | jupyter | 2016 | :snake: |
-| [Machine Learning with Scikit Learn](https://www.youtube.com/watch?v=HC0J_SPm9co) [[repo](https://github.com/jakevdp/sklearn_pydata2015)] | Jake VanderPlas | PyData | 1:34 | 16000 | sklearn | 2015 | Novice |
-| [Using Jupyter notebooks](https://www.youtube.com/watch?v=aXR2d9k9-h4) | Ioanna Ioannou | PyCon Australia | 0:28 | 8000 | jupyter | 2016 | Novice |
-| [Parallel Python: Analyzing Large Datasets](https://www.youtube.com/watch?v=5Md_sSsN51k) [[repo](https://github.com/pydata/parallel-tutorial)] | Matthew Rocklin | Enthought | 3:05 | 7000 | scipy | 2016 | Novice |
-| [Keynote: Project Jupyter](https://www.youtube.com/watch?v=v5mrwq7yJc4) | Brian Granger | Enthought | 0:48 | 7000 | jupyter | 2016 | Novice |
-| [matplotlib beginner tutorial](https://www.youtube.com/watch?v=p7Mj-4kASmI) [[repo](https://github.com/rougier/matplotlib-tutorial)] | Nicolas Rougier | Enthought | 2:59 | 6000 | matplotlib | 2016 | Novice |
-| [Awesome Big Data Algorithms](https://www.youtube.com/watch?v=jKBwGlYb13w) | Titus Brown | Next Day Video | 0:39 | 41000 | python | 2013 | Novice |
-| [All About Jupyter](https://www.youtube.com/watch?v=GMKZD1Ohlzk) | Brian Granger | PyData | 0:39 | 11000 | jupyter | 2015 | Novice |
-| [PyMC: Markov Chain Monte Carlo](https://www.youtube.com/watch?v=XbxIo7ScVzc) | Chris Fonnesbeck | Enthought | 0:20 | 9000 | pyMC | 2014 | Novice |
-| [Jupyter Advanced Topics Tutorial](https://www.youtube.com/watch?v=38R7jiCspkw) [[repo](https://github.com/jupyter/scipy-advanced-tutorial)] | Jonathan Frederic & Matthias Bussonier | Enthought | 2:48 | 4000 | jupyter | 2015 | Novice |
-| [Using randomness to make code much faster](https://www.youtube.com/watch?v=7i6kBz1kZ-A) | Rachel Thomas | SF Python | 0:54 | 1000 | scipy | 2017 | Novice |
-| [Python Profiling & Performance](https://www.youtube.com/watch?v=Dgnp28Ijm_M) | Mahmoud Hashemi | SF Python | 0:28 | 1000 | python | 2016 | Novice |
+| [NumPy Beginner](https://www.youtube.com/watch?v=gtejJ3RCddE) [[repo](https://github.com/enthought/Numpy-Tutorial-SciPyConf-2016)] | Alexandre Chabot LeClerc | Enthought | 2:47 | 56000 | NumPy | 2016 | :sweat_smile: |
+| [Machine Learning](https://www.youtube.com/watch?v=OB1reY6IX-o) | Andreas Mueller & Sebastian Raschka | Enthought | 3:03 | 47000 | sklearn | 2016 | :sweat_smile: |
+| [The Python Visualization Landscape](https://www.youtube.com/watch?v=FytuB8nFHPQ) | Jake VanderPlas | PyCon 2017 | 0:33 | 21000 | python | 2017 | :smiley: |
+| [JupyterLab: Building Blocks for Interactive Computing](https://www.youtube.com/watch?v=Ejh0ftSjk6g) | Brian Granger | Enthought | 0:29 | 28000 | jupyter | 2016 | :smiley: |
+| [Machine Learning with Scikit Learn](https://www.youtube.com/watch?v=80fZrVMurPM) [[repo](https://github.com/amueller/scipy_2015_sklearn_tutorial)] | Andreas Mueller & Kyle Kastner | Enthought | 3:22 | 48000 | sklearn | 2015 | :sweat_smile: |
+| [Machine Learning for Time Series Data in Python](https://www.youtube.com/watch?v=ZgHGCfwExw0) | Brett Naul | Enthought | 0:24 | 24000 | cesium | 2016 | :smiley: |
+| [Computational Statistics](https://www.youtube.com/watch?v=He9MCbs1wgE) [[repo](https://github.com/AllenDowney/CompStats)] | Allen Downey | Enthought | 2:05 | 10000 | scipy | 2017 | :sweat_smile: |
+| [Time Series Analysis](https://www.youtube.com/watch?v=zmfe2RaX-14) [[repo](https://github.com/ikding/pycon_time_series)] | Aileen Nielsen | PyCon 2017 | 3:11 | 9000 | pandas | 2017 | :sweat_smile: |
+| [Learning TensorFlow](https://www.youtube.com/watch?v=bvHgESVuS6Q) | Robert Layton | PyCon Australia | 0:40 | 18000 | tensorflow | 2016 | :sweat_smile: |
+| [JupyterHub: Deploying Jupyter Notebooks](https://www.youtube.com/watch?v=gSVvxOchT8Y) | Min Ragan Kelley & Thomas Kluyver | PyData | 1:36 | 17000 | jupyter | 2016 | :smiley: |
+| [Applied Time Series Econometrics](https://www.youtube.com/watch?v=tJ-O3hk1vRw) | Jeffrey Yau | PyData | 1:39 | 17000 | statsmodels | 2016 | :sweat_smile: |
+| [Machine Learning with scikit learn](https://www.youtube.com/watch?v=2kT6QOVSgSg) [[repo](https://github.com/amueller/scipy-2017-sklearn)] | Andreas Mueller & Alexandre Gram | Enthought | 3:10 | 8000 | sklearn | 2017 | :sweat_smile: |
+| [Introduction to Numerical Computing with NumPy](https://www.youtube.com/watch?v=lKcwuPnSHIQ) | Dillon Niederhut | Enthought | 2:27 | 8000 | NumPy | 2017 | :smiley: |
+| [Dask - A Pythonic Distributed Data Science Framework](https://www.youtube.com/watch?v=RA_2qdipVng) | Matthew Rocklin | PyCon 2017 | 0:46 | 7000 | dask | 2017 | :sweat_smile: |
+| [Introduction to Statistical Modeling with Python](https://www.youtube.com/watch?v=TMmSESkhRtI) [[repo](https://github.com/fonnesbeck/intro_stat_modeling_2017)] | Christopher Fonnesbeck | PyCon 2017 | 3:19 | 7000 | scipy | 2017 | :sweat_smile: |
+| [Fully Convolutional Networks for Image Segmentation](https://www.youtube.com/watch?v=-lXfsWP7DJ8) | Daniil Pakhomov | Enthought | 0:20 | 7000 | scipy | 2017 | :smiley: |
+| [Exploratory data analysis in python](https://www.youtube.com/watch?v=W5WE9Db2RLU) [[repo](https://github.com/cmawer/pycon-2017-eda-tutorial)] | Chloe Mawer & Jonathan Whitmore | PyCon 2017 | 2:54 | 7000 | scipy | 2017 | :smiley: |
+| [Libraries for Deep Learning with Sequences](https://www.youtube.com/watch?v=E92jDCmJNek) | Alex Rubinsteyn | PyData | 0:44 | 23000 | scipy | 2015 | :sweat_smile: |
+| [Numba - Tell Those C++ Bullies to Get Lost](https://www.youtube.com/watch?v=1AwG0T4gaO0) [[repo](https://github.com/gforsyth/numba_tutorial_scipy2017)] | Gil Forsyth & Lorena Barba | Enthought | 2:25 | 5000 | numba | 2017 | :sweat_smile: |
+| [Deploying Interactive Jupyter Dashboards](https://www.youtube.com/watch?v=8Jktm-Imt-I) | Philipp Rudiger | Enthought | 0:18 | 5000 | jupyter | 2017 | :sweat_smile: |
+| [Data Science Using Functional Python](https://www.youtube.com/watch?v=ThS4juptJjQ) | Joel Grus | PyData | 0:44 | 18000 | python | 2015 | :sweat_smile: |
+| [Anatomy of matplotlib](https://www.youtube.com/watch?v=MKucn8NtVeI) [[repo](https://github.com/matplotlib/AnatomyOfMatplotlib)] | Benjamin Root & Joe Kington | Enthought | 3:18 | 18000 | matplotlib | 2015 | :sweat_smile: |
+| [Anatomy of matplotlib](https://www.youtube.com/watch?v=rARMKS8jE9g) [[repo](https://github.com/matplotlib/AnatomyOfMatplotlib)] | Benjamin Root | Enthought | 3:02 | 4000 | matplotlib | 2017 | :sweat_smile: |
+| [Data Science is Software](https://www.youtube.com/watch?v=EKUy0TSLg04) [[repo](https://github.com/drivendata/data-science-is-software)] | Peter Bull & Isaac Slavitt | Enthought | 2:12 | 9000 | jupyter | 2016 | :smiley: |
+| [Machine Learning with Scikit Learn](https://www.youtube.com/watch?v=HC0J_SPm9co) [[repo](https://github.com/jakevdp/sklearn_pydata2015)] | Jake VanderPlas | PyData | 1:34 | 16000 | sklearn | 2015 | :sweat_smile: |
+| [Using Jupyter notebooks](https://www.youtube.com/watch?v=aXR2d9k9-h4) [[repo](https://github.com/ch41rmn/PyConAU2016_-_Interactive_Data_Displays_With_Jupyter_Notebooks)] | Ioanna Ioannou | PyCon Australia | 0:28 | 8000 | jupyter | 2016 | :sweat_smile: |
+| [Parallel Python: Analyzing Large Datasets](https://www.youtube.com/watch?v=5Md_sSsN51k) [[repo](https://github.com/pydata/parallel-tutorial)] | Matthew Rocklin | Enthought | 3:05 | 7000 | scipy | 2016 | :scream: |
+| [Keynote: Project Jupyter](https://www.youtube.com/watch?v=v5mrwq7yJc4) | Brian Granger | Enthought | 0:48 | 7000 | jupyter | 2016 | :sweat_smile: |
+| [matplotlib beginner tutorial](https://www.youtube.com/watch?v=p7Mj-4kASmI) [[repo](https://github.com/rougier/matplotlib-tutorial)] | Nicolas Rougier | Enthought | 2:59 | 6000 | matplotlib | 2016 | :sweat_smile: |
+| [Awesome Big Data Algorithms](https://www.youtube.com/watch?v=jKBwGlYb13w) | Titus Brown | Next Day Video | 0:39 | 41000 | python | 2013 | :scream: |
+| [All About Jupyter](https://www.youtube.com/watch?v=GMKZD1Ohlzk) | Brian Granger | PyData | 0:39 | 11000 | jupyter | 2015 | :sweat_smile: |
+| [PyMC: Markov Chain Monte Carlo](https://www.youtube.com/watch?v=XbxIo7ScVzc) | Chris Fonnesbeck | Enthought | 0:20 | 9000 | pyMC | 2014 | :sweat_smile: |
+| [Jupyter Advanced Topics Tutorial](https://www.youtube.com/watch?v=38R7jiCspkw) [[repo](https://github.com/jupyter/scipy-advanced-tutorial)] | Jonathan Frederic & Matthias Bussonier | Enthought | 2:48 | 4000 | jupyter | 2015 | :scream: |
+| [Using randomness to make code much faster](https://www.youtube.com/watch?v=7i6kBz1kZ-A) | Rachel Thomas | SF Python | 0:54 | 1000 | scipy | 2017 | :sweat_smile: |
+| [Python Profiling & Performance](https://www.youtube.com/watch?v=Dgnp28Ijm_M) | Mahmoud Hashemi | SF Python | 0:28 | 1000 | python | 2016 | :sweat_smile: |
 
 ### (2.2) :exclamation: Cheat-sheets
 * [Numpy Cheat Sheet](http://datasciencefree.com/numpy.pdf)
@@ -148,6 +148,8 @@ quantified roughly as follows:
 * [[amazon](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008/)] Ramalho, Luciano. *Fluent Python*. 1st edition. O’Reilly, 2015.
 * [[amazon](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/)] Géron, Aurélien. *Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*. 1 edition. O’Reilly Media, 2017.
 
+* [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4161295/pdf/pcbi.1003833.pdf)]
+* [[pdf](http://vita.had.co.nz/papers/tidy-data.pdf)]
 --------------------------------------------------------------------------------
 
 ## (3) Miscellaneous related resources
@@ -156,17 +158,17 @@ quantified roughly as follows:
 
 | Title | Speaker | Uploader | Time | Views | Keyword | Year | Level |
 | ----- | ------- | -------- | -------- | ----- | -------- | ---- | ----- |
-| :star: [So you want to be a Python expert?](https://www.youtube.com/watch?v=cKPlPJyQrt4) | James Powell | PyData | 1:54 | 28000 | python | 2017 | :snake::snake::snake: |
-| :star: [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go) |  Raymond Hettinger | Next Day Video | 0:48 | 340000 | python | 2013 | :snake: |
-| :star: [Builtin Superheroes](https://www.youtube.com/watch?v=j6VSAsKAj98) | David Beazley | David Beazley | 0:44 | 12000 | python | 2016 | :snake: :snake: |
-| [How to become a Data Scientist in 6 months](https://www.youtube.com/watch?v=rIofV14c0tc) | Tetiana Ivanova | PyData | 0:56 | 148000 | misc | 2016 | :snake: |
-| [Modern Dictionaries](https://www.youtube.com/watch?v=p33CVV29OG8) | Raymond Hettinger | SF Python | 1:07 | 44000 | python | 2016 | :snake: :snake: |
-| [Keynote on Concurrency](https://www.youtube.com/watch?v=9zinZmE3Ogk) | Raymond Hettinger | SF Python | 1:13 | 15000 | python | 2017 | :snake::snake: |
-| [The Fun of Reinvention](https://www.youtube.com/watch?v=js_0wjzuMfc) | David Beazley | David Beazley | 0:52 | 11000 | python | 2017 | :snake::snake::snake: |
-| [Being a Core Developer in Python](https://www.youtube.com/watch?v=voXVTjwnn-U) | Raymond Hettinger | SF Python | 1:02 | 19000 | python | 2016 | :snake: |
-| [Visualizing Geographic Data](https://www.youtube.com/watch?v=ZIEyHdvF474) | Christopher Roach | PyData | 0:31 | 14000 | python | 2016 | :snake: |
-| [Python's Class Development Toolkit](https://www.youtube.com/watch?v=HTLu2DFOdTg) | Raymond Hettinger | Next Day Video | 0:45 | 80000 | python | 2013 | :snake: :snake: |
-| [The Other Async (Threads + Async = ❤️) - YouTube](https://www.youtube.com/watch?v=x1ndXuw7S0s) | David Beazley | David Beazley | 0:47 | 5000 | python | 2017 | :snake: :snake: :snake:|
+| :star: [So you want to be a Python expert?](https://www.youtube.com/watch?v=cKPlPJyQrt4) | James Powell | PyData | 1:54 | 28000 | python | 2017 | :scream: |
+| :star: [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go) |  Raymond Hettinger | Next Day Video | 0:48 | 340000 | python | 2013 | :smiley: |
+| :star: [Builtin Superheroes](https://www.youtube.com/watch?v=j6VSAsKAj98) | David Beazley | David Beazley | 0:44 | 12000 | python | 2016 | :sweat_smile: |
+| [How to become a Data Scientist in 6 months](https://www.youtube.com/watch?v=rIofV14c0tc) | Tetiana Ivanova | PyData | 0:56 | 148000 | misc | 2016 | :smiley: |
+| [Modern Dictionaries](https://www.youtube.com/watch?v=p33CVV29OG8) | Raymond Hettinger | SF Python | 1:07 | 44000 | python | 2016 | :sweat_smile: |
+| [Keynote on Concurrency](https://www.youtube.com/watch?v=9zinZmE3Ogk) | Raymond Hettinger | SF Python | 1:13 | 15000 | python | 2017 | :sweat_smile: |
+| [The Fun of Reinvention](https://www.youtube.com/watch?v=js_0wjzuMfc) | David Beazley | David Beazley | 0:52 | 11000 | python | 2017 | :scream: |
+| [Being a Core Developer in Python](https://www.youtube.com/watch?v=voXVTjwnn-U) | Raymond Hettinger | SF Python | 1:02 | 19000 | python | 2016 | :smiley: |
+| [Visualizing Geographic Data](https://www.youtube.com/watch?v=ZIEyHdvF474) | Christopher Roach | PyData | 0:31 | 14000 | python | 2016 | :smiley: |
+| [Python's Class Development Toolkit](https://www.youtube.com/watch?v=HTLu2DFOdTg) | Raymond Hettinger | Next Day Video | 0:45 | 80000 | python | 2013 | :sweat_smile: |
+| [The Other Async (Threads + Async = ❤️) - YouTube](https://www.youtube.com/watch?v=x1ndXuw7S0s) | David Beazley | David Beazley | 0:47 | 5000 | python | 2017 | :scream:|
 | [Functional Programming with Python](https://www.youtube.com/watch?v=Ta1bAMOMFOI) | Mike Müller | Next Day Video | 0:27 | 44000 | python | 2013 | Novice |
 | [Building a Recommendation Engine using Python](https://www.youtube.com/watch?v=E9XTOnEgqRY) | Anusua Trivedi | PyData | 0:37 | 11000 | python | 2015 | Novice |
 | [Iterations of Evolution](https://www.youtube.com/watch?v=2AXuhgid7E4) | David Beazley | David Beazley | 0:34 | 2000 | python | 2017 | Novice |
