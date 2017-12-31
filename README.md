@@ -52,6 +52,7 @@ quantified roughly as follows:
 | [Predicting sports winners with pandas](https://www.youtube.com/watch?v=k7hSD_-gWMw) | Robert Layton | PyCon Australia | 0:38 | 13000 | 2015 | :sweat_smile: |
 | [Pandas from the Inside](https://www.youtube.com/watch?v=YGk09nK_xnM) [[repo](https://github.com/stevesimmons/pydata-berlin2017-pandas-and-dask-from-the-inside)] [[2016 talk](https://www.youtube.com/watch?v=CowlcrtSyME)] | Stephen Simmons | PyData | 1:17 | 3000 | 2017 | :scream: |
 | Pandas [part 1](https://www.youtube.com/watch?v=Cz_u2If7KbI) & [part 2](https://www.youtube.com/watch?v=gS7kVg-4ZaU) [[repo](https://github.com/jorisvandenbossche/pandas-tutorial)] | Joris Van den Bossche | EuroSciPy | 3:03 | 1000 | 2017 | :smiley: |
+| [Pandas: .head() to .tail()](https://www.youtube.com/watch?v=7vuO9QXDN50) [[repo](https://github.com/TomAugspurger/pydata-chi-h2t)] | Tom Augspurger | PyData | 1:26 | 3000 | 2016 | :sweat_smile: |
 
 *Know of a recent, good video? Send a pull request!* :+1:
 
@@ -144,12 +145,8 @@ quantified roughly as follows:
 
 ### (2.4) :blue_book: Books / papers
 
-* [[amazon](https://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287/)] Slatkin, Brett. *Effective Python: 59 Specific Ways to Write Better Python*. 1 edition. Addison-Wesley Professional, 2015.
-* [[amazon](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008/)] Ramalho, Luciano. *Fluent Python*. 1st edition. O’Reilly, 2015.
 * [[amazon](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/)] Géron, Aurélien. *Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*. 1 edition. O’Reilly Media, 2017.
 
-* [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4161295/pdf/pcbi.1003833.pdf)] P Rougier, Nicolas, Michael Droettboom, and Philip Bourne. "*Ten Simple Rules for Better Figures.*" PLoS Computational Biology 10 (September 1, 2014): e1003833. https://doi.org/10.1371/journal.pcbi.1003833.
-* [[pdf](http://vita.had.co.nz/papers/tidy-data.pdf)] *Tidy Data* | Wickham | Journal of Statistical Software. Accessed December 31, 2017. https://doi.org/10.18637/jss.v059.i10.
 --------------------------------------------------------------------------------
 
 ## (3) Miscellaneous related resources
@@ -183,6 +180,13 @@ quantified roughly as follows:
 ### (3.3) :mortar_board: Tutorials
 
 ### (3.4) :blue_book: Books / papers
+
+* [[amazon](https://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287/)] Slatkin, Brett. *Effective Python: 59 Specific Ways to Write Better Python*. 1 edition. Addison-Wesley Professional, 2015.
+* [[amazon](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008/)] Ramalho, Luciano. *Fluent Python*. 1st edition. O’Reilly, 2015.
+* [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4161295/pdf/pcbi.1003833.pdf)] P Rougier, Nicolas, Michael Droettboom, and Philip Bourne. "*Ten Simple Rules for Better Figures.*" PLoS Computational Biology 10 (September 1, 2014): e1003833. https://doi.org/10.1371/journal.pcbi.1003833.
+* [[pdf](http://vita.had.co.nz/papers/tidy-data.pdf)] *Tidy Data* | Wickham | Journal of Statistical Software. Accessed December 31, 2017. https://doi.org/10.18637/jss.v059.i10.
+
+The books below are perhaps of an even more general nature.
 
 * [[amazon](https://www.amazon.com/Algorithms-Sanjoy-Dasgupta/dp/0073523402/)] Dasgupta, Sanjoy, Christos H. . Papadimitriou, and Umesh Virkumar. Vazirani. *Algorithms*. Boston, Mass: McGraw Hill, 2008.
 * [[amazon](https://www.amazon.com/Numerical-Linear-Algebra-Lloyd-Trefethen/dp/0898713617/)] Lloyd N. Trefethen. *Numerical Linear Algebra*. Society for Industrial and Applied Mathematics, 1997.
