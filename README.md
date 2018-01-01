@@ -145,6 +145,9 @@ quantified roughly as follows:
 
 ### (2.4) :blue_book: Books / papers
 
+* Varoquaux, Gael, Valentin Haenel, Emmanuelle Gouillart, Zbigniew Jędrzejewski-Szmek, Ralf Gommers, Fabian Pedregosa, Olav Vahtras, et al. *[Scipy Lecture Notes](http://www.scipy-lectures.org/index.html)*. Zenodo, September 28, 2015. https://doi.org/10.5281/zenodo.31521.
+* [[amazon](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877)] Nunez-Iglesias, Juan, Stéfan van der Walt, and Harriet Dashnow. *Elegant SciPy: The Art of Scientific Python*. 1 edition. O’Reilly Media, 2017.
+* Rougier, Nicolas P. *[From Python to Numpy](http://www.labri.fr/perso/nrougier/from-python-to-numpy/)* Zenodo, December 31, 2016. https://doi.org/10.5281/zenodo.225783.
 * [[amazon](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/)] Géron, Aurélien. *Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*. 1 edition. O’Reilly Media, 2017.
 
 --------------------------------------------------------------------------------
