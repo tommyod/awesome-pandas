@@ -188,6 +188,7 @@ quantified roughly as follows:
 * [[amazon](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008/)] Ramalho, Luciano. *Fluent Python*. 1st edition. O’Reilly, 2015.
 * [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4161295/pdf/pcbi.1003833.pdf)] P Rougier, Nicolas, Michael Droettboom, and Philip Bourne. "*Ten Simple Rules for Better Figures.*" PLoS Computational Biology 10 (September 1, 2014): e1003833. https://doi.org/10.1371/journal.pcbi.1003833.
 * [[pdf](http://vita.had.co.nz/papers/tidy-data.pdf)] *Tidy Data* | Wickham | Journal of Statistical Software. Accessed December 31, 2017. https://doi.org/10.18637/jss.v059.i10.
+* [[amazon](https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772/)] [[online](https://git-scm.com/book/en/v2)] Chacon, Scott, and Ben Straub. *Pro Git*. 2nd ed. edition. New York, NY: Apress, 2014.
 
 The books below are perhaps of an even more general nature.
 
