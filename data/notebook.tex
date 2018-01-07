@@ -1,0 +1,592 @@
+
+% Default to the notebook output style
+
+    
+
+
+% Inherit from the specified cell style.
+
+
+
+
+    
+\documentclass[11pt]{article}
+
+    
+    
+    \usepackage[T1]{fontenc}
+    % Nicer default font (+ math font) than Computer Modern for most use cases
+    \usepackage{mathpazo}
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % We will generate all images so they have a width \maxwidth. This means
+    % that they will get their normal width if they fit onto the page, but
+    % are scaled down if they would overflow the margins.
+    \makeatletter
+    \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+    \else\Gin@nat@width\fi}
+    \makeatother
+    \let\Oldincludegraphics\includegraphics
+    % Set max figure width to be 80% of text width, for now hardcoded.
+    \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=.8\maxwidth]{#1}}
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionLabelFormat{nolabel}{}
+    \captionsetup{labelformat=nolabel}
+
+    \usepackage{adjustbox} % Used to constrain images to a maximum size 
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage[utf8x]{inputenc} % Allow utf-8 characters in the tex document
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range 
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    
+
+    
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatability definitions
+    \def\gt{>}
+    \def\lt{<}
+    % Document parameters
+    \title{Metadata\_analysis}
+    
+    
+    
+
+    % Pygments definitions
+    
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % Exact colors from NB
+    \definecolor{incolor}{rgb}{0.0, 0.0, 0.5}
+    \definecolor{outcolor}{rgb}{0.545, 0.0, 0.0}
+
+
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+    \begin{document}
+    
+    
+    \maketitle
+    
+    
+
+    
+    \section{Metadata analysis}\label{metadata-analysis}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}1}]:} \PY{k+kn}{import} \PY{n+nn}{pandas} \PY{k}{as} \PY{n+nn}{pd}
+        \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
+        \PY{k+kn}{import} \PY{n+nn}{bs4}
+        \PY{k+kn}{import} \PY{n+nn}{requests}
+        \PY{k+kn}{import} \PY{n+nn}{string}
+        \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}2}]:} \PY{k}{def} \PY{n+nf}{int\PYZus{}str}\PY{p}{(}\PY{n}{a\PYZus{}string}\PY{p}{)}\PY{p}{:}
+            \PY{k}{try}\PY{p}{:}
+                \PY{k}{return} \PY{n+nb}{int}\PY{p}{(}\PY{n}{a\PYZus{}string}\PY{p}{)}
+            \PY{k}{except}\PY{p}{:}
+                \PY{k}{return} \PY{l+m+mi}{0}
+        
+        \PY{k}{def} \PY{n+nf}{info\PYZus{}from\PYZus{}youtube}\PY{p}{(}\PY{n}{youtube\PYZus{}video\PYZus{}url}\PY{p}{)}\PY{p}{:}
+            \PY{l+s+sd}{\PYZdq{}\PYZdq{}\PYZdq{}}
+        \PY{l+s+sd}{    Retrieve information from a YouTube url.\PYZdq{}\PYZdq{}\PYZdq{}}
+            \PY{k}{try}\PY{p}{:}
+                \PY{n}{soup} \PY{o}{=} \PY{n}{bs4}\PY{o}{.}\PY{n}{BeautifulSoup}\PY{p}{(}\PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{youtube\PYZus{}video\PYZus{}url}\PY{p}{)}\PY{o}{.}\PY{n}{text}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lxml}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+                \PY{n}{title} \PY{o}{=} \PY{n}{soup}\PY{o}{.}\PY{n}{title}\PY{o}{.}\PY{n}{text}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+                \PY{n}{views\PYZus{}text} \PY{o}{=} \PY{n}{soup}\PY{o}{.}\PY{n}{find}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{div}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{attrs} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{watch\PYZhy{}view\PYZhy{}count}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}\PY{p}{)}\PY{o}{.}\PY{n}{text}
+                \PY{n}{views} \PY{o}{=} \PY{n}{int\PYZus{}str}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{join}\PY{p}{(}\PY{p}{[}\PY{n}{c} \PY{k}{for} \PY{n}{c} \PY{o+ow}{in} \PY{n}{views\PYZus{}text} \PY{k}{if} \PY{n}{c} \PY{o+ow}{in} \PY{n}{string}\PY{o}{.}\PY{n}{digits}\PY{p}{]}\PY{p}{)}\PY{p}{)}
+                \PY{n}{published\PYZus{}text} \PY{o}{=} \PY{n}{soup}\PY{o}{.}\PY{n}{find}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{strong}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{attrs} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{watch\PYZhy{}time\PYZhy{}text}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}\PY{p}{)}\PY{o}{.}\PY{n}{text}
+                \PY{n}{published} \PY{o}{=} \PY{n}{int\PYZus{}str}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{join}\PY{p}{(}\PY{p}{[}\PY{n}{c} \PY{k}{for} \PY{n}{c} \PY{o+ow}{in} \PY{n}{published\PYZus{}text}\PY{p}{[}\PY{o}{\PYZhy{}}\PY{l+m+mi}{4}\PY{p}{:}\PY{p}{]} \PY{k}{if} \PY{n}{c} \PY{o+ow}{in} \PY{n}{string}\PY{o}{.}\PY{n}{digits}\PY{p}{]}\PY{p}{)}\PY{p}{)}
+                \PY{n}{publisher} \PY{o}{=} \PY{n}{soup}\PY{o}{.}\PY{n}{find}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{div}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{attrs} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{yt\PYZhy{}user\PYZhy{}info}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}\PY{p}{)}\PY{o}{.}\PY{n}{text}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+                \PY{n}{num\PYZus{}likes\PYZus{}text} \PY{o}{=} \PY{n}{soup}\PY{o}{.}\PY{n}{find}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{button}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{attrs} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{like\PYZhy{}button\PYZhy{}renderer\PYZhy{}like\PYZhy{}button}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}\PY{p}{)}\PY{o}{.}\PY{n}{text}
+                \PY{n}{num\PYZus{}likes} \PY{o}{=} \PY{n}{int\PYZus{}str}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{join}\PY{p}{(}\PY{p}{[}\PY{n}{c} \PY{k}{for} \PY{n}{c} \PY{o+ow}{in} \PY{n}{num\PYZus{}likes\PYZus{}text} \PY{k}{if} \PY{n}{c} \PY{o+ow}{in} \PY{n}{string}\PY{o}{.}\PY{n}{digits}\PY{p}{]}\PY{p}{)}\PY{p}{)}
+                \PY{n}{percentage\PYZus{}likes\PYZus{}text} \PY{o}{=} \PY{n}{soup}\PY{o}{.}\PY{n}{find}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{div}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{attrs} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{video\PYZhy{}extras\PYZhy{}sparkbar\PYZhy{}likes}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}\PY{p}{)}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{style}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+                \PY{n}{percentage\PYZus{}likes} \PY{o}{=} \PY{n+nb}{float}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{join}\PY{p}{(}\PY{p}{[}\PY{n}{c} \PY{k}{for} \PY{n}{c} \PY{o+ow}{in} \PY{n}{percentage\PYZus{}likes\PYZus{}text} \PY{k}{if} \PY{n}{c} \PY{o+ow}{in} \PY{n}{string}\PY{o}{.}\PY{n}{digits} \PY{o}{+} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{)}
+        
+                \PY{k}{return} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{url}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{n}{youtube\PYZus{}video\PYZus{}url}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}\PY{p}{,} 
+                        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{title}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{n}{title}\PY{p}{,} 
+                        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{views}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{n}{views}\PY{p}{,} 
+                        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{published\PYZus{}yr}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{n}{published}\PY{p}{,} 
+                        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{publisher}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{n}{publisher}\PY{p}{,}
+                        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{num\PYZus{}likes}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{n}{num\PYZus{}likes}\PY{p}{,} 
+                        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{percentage\PYZus{}likes}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{n}{percentage\PYZus{}likes}\PY{p}{\PYZcb{}}
+            \PY{k}{except}\PY{p}{:}
+                \PY{k}{return} \PY{k+kc}{None}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}3}]:} \PY{n}{urls} \PY{o}{=} \PY{p}{[}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=OB1reY6IX\PYZhy{}o}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=80fZrVMurPM}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=gtejJ3RCddE}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=Ejh0ftSjk6g}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=ZgHGCfwExw0}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=6ohWS7J1hVA}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=MKucn8NtVeI}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=He9MCbs1wgE}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=XbxIo7ScVzc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=EKUy0TSLg04}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=2kT6QOVSgSg}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=lKcwuPnSHIQ}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=5Md\PYZus{}sSsN51k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=\PYZhy{}lXfsWP7DJ8}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=v5mrwq7yJc4}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=p7Mj\PYZhy{}4kASmI}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=1AwG0T4gaO0}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=8Jktm\PYZhy{}Imt\PYZhy{}I}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=rARMKS8jE9g}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=38R7jiCspkw}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=HN5d490\PYZus{}KKk}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=xn9sTXR3Cp8}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=RA\PYZus{}2qdipVng}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=zmfe2RaX\PYZhy{}14}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=TMmSESkhRtI}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=W5WE9Db2RLU}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=FytuB8nFHPQ}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=u682UpVrMVM}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=E92jDCmJNek}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=ThS4juptJjQ}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=gSVvxOchT8Y}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=tJ\PYZhy{}O3hk1vRw}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=HC0J\PYZus{}SPm9co}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=ZIEyHdvF474}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=9fOWryQq9J8}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=E9XTOnEgqRY}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=GMKZD1Ohlzk}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=dye7rDktJ2E}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=39vJRxIPSxw}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=rIofV14c0tc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=cKPlPJyQrt4}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=bvHgESVuS6Q}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=k7hSD\PYZus{}\PYZhy{}gWMw}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=YkVscKsV\PYZus{}qk}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=aXR2d9k9\PYZhy{}h4}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=XJOt4QQgx0A}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=HTLu2DFOdTg}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=Ta1bAMOMFOI}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=jKBwGlYb13w}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=u2KZJzoz\PYZhy{}qI}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=OSGv2VnC0go}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=9zinZmE3Ogk}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=p33CVV29OG8}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=9zinZmE3Ogk}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=p33CVV29OG8}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=voXVTjwnn\PYZhy{}U}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=9zinZmE3Ogk}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=\PYZus{}Ek3A2b\PYZhy{}nHU}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=zhpWhkW8kcc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=Dgnp28Ijm\PYZus{}M}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=7i6kBz1kZ\PYZhy{}A}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=g\PYZhy{}YCaX3ml2Q}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=rfdzOZkDqYk}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=5\PYZhy{}qadlG7tWo}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=j6VSAsKAj98}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=js\PYZus{}0wjzuMfc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=Z\PYZus{}OAlIhXziw}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=Bm96RqNGbGo}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=x1ndXuw7S0s}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=2AXuhgid7E4}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=5JnMutdy6Fw}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=9d5\PYZhy{}Ti6onew}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=CowlcrtSyME}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=YGk09nK\PYZus{}xnM}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=5XGycFIe8qE}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=\PYZhy{}NR\PYZhy{}ynQg0YM}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.youtube.com/watch?v=oGzU688xCUs}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        \PY{n}{urls} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{set}\PY{p}{(}\PY{n}{urls}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}4}]:} \PY{c+c1}{\PYZsh{} Parse the URLS}
+        \PY{n}{data\PYZus{}inn} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+        \PY{k}{for} \PY{n}{url} \PY{o+ow}{in} \PY{n}{urls}\PY{p}{:}
+            \PY{n}{info} \PY{o}{=} \PY{n}{info\PYZus{}from\PYZus{}youtube}\PY{p}{(}\PY{n}{url}\PY{p}{)}
+            \PY{k}{if} \PY{n}{info}\PY{p}{:}
+                \PY{n}{data\PYZus{}inn}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{info}\PY{p}{)}
+            \PY{k}{else}\PY{p}{:}
+                \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Error with:}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{url}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Error with: https://www.youtube.com/watch?v=5-qadlG7tWo
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}11}]:} \PY{n}{df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{data\PYZus{}inn}\PY{p}{)}
+         \PY{n}{df}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{l+m+mi}{3}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}11}]:}    num\_likes  percentage\_likes  published\_yr        publisher  \textbackslash{}
+         0       6527         98.953911          2013   Next Day Video   
+         1        142         94.666667          2016           PyData   
+         2         88        100.000000          2015  PyCon Australia   
+         
+                                                        title  \textbackslash{}
+         0  Transforming Code into Beautiful, Idiomatic Py{\ldots}   
+         1  Christopher Roach | Visualizing Geographic Dat{\ldots}   
+         2  Predicting sports winners using data analytics{\ldots}   
+         
+                                                    url   views  
+         0  https://www.youtube.com/watch?v=OSGv2VnC0go  340228  
+         1  https://www.youtube.com/watch?v=ZIEyHdvF474   13912  
+         2  https://www.youtube.com/watch?v=k7hSD\_-gWMw   12867  
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}12}]:} \PY{k}{def} \PY{n+nf}{rating\PYZus{}func}\PY{p}{(}\PY{n}{df}\PY{p}{)}\PY{p}{:}
+             \PY{l+s+sd}{\PYZdq{}\PYZdq{}\PYZdq{}}
+         \PY{l+s+sd}{    A rating heuristic.}
+         \PY{l+s+sd}{    \PYZdq{}\PYZdq{}\PYZdq{}}
+             \PY{n}{num\PYZus{}likes}\PY{p}{,} \PY{n}{percentage\PYZus{}likes} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{num\PYZus{}likes}\PY{p}{,} \PY{n}{df}\PY{o}{.}\PY{n}{percentage\PYZus{}likes}
+             \PY{n}{views}\PY{p}{,} \PY{n}{published\PYZus{}yr} \PY{o}{=}  \PY{n}{df}\PY{o}{.}\PY{n}{views}\PY{o}{/}\PY{l+m+mi}{10}\PY{p}{,} \PY{n}{df}\PY{o}{.}\PY{n}{published\PYZus{}yr}
+             \PY{n}{a}\PY{p}{,} \PY{n}{b} \PY{o}{=} \PY{n}{num\PYZus{}likes}\PY{o}{*}\PY{n}{percentage\PYZus{}likes}\PY{p}{,} \PY{n}{np}\PY{o}{.}\PY{n}{log}\PY{p}{(}\PY{n}{views}\PY{p}{)}
+             \PY{n}{age} \PY{o}{=} \PY{n+nb}{abs}\PY{p}{(}\PY{l+m+mi}{2018} \PY{o}{\PYZhy{}} \PY{n}{df}\PY{o}{.}\PY{n}{published\PYZus{}yr}\PY{p}{)}
+             \PY{k}{return} \PY{p}{(}\PY{n}{a}\PY{o}{*}\PY{n}{b} \PY{o}{/} \PY{p}{(}\PY{n}{a} \PY{o}{+} \PY{n}{b}\PY{p}{)}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{n}{age}\PY{o}{*}\PY{o}{*}\PY{l+m+mf}{0.8}
+         
+         \PY{n}{df} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{assign}\PY{p}{(}\PY{n}{rating} \PY{o}{=} \PY{n}{rating\PYZus{}func}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}13}]:} \PY{n+nb}{len}\PY{p}{(}\PY{n}{df}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}13}]:} 73
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}15}]:} \PY{n}{temp} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{rating}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{n}{ascending} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}\PY{o}{.}\PY{n}{drop\PYZus{}duplicates}\PY{p}{(}\PY{p}{)}
+         
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{temp}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+             \PY{n}{values\PYZus{}dict} \PY{o}{=} \PY{n}{temp}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{p}{:}\PY{p}{]}\PY{o}{.}\PY{n}{to\PYZus{}dict}\PY{p}{(}\PY{p}{)}
+             \PY{n}{string} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{| [}\PY{l+s+si}{\PYZob{}Title\PYZcb{}}\PY{l+s+s1}{](}\PY{l+s+si}{\PYZob{}url\PYZcb{}}\PY{l+s+s1}{) | }\PY{l+s+si}{\PYZob{}Speaker\PYZcb{}}\PY{l+s+s1}{ | }\PY{l+s+si}{\PYZob{}Uploader\PYZcb{}}\PY{l+s+s1}{ | }\PY{l+s+si}{\PYZob{}Duration\PYZcb{}}\PY{l+s+s1}{ | }\PY{l+s+si}{\PYZob{}Views\PYZcb{}}\PY{l+s+s1}{ | }\PY{l+s+si}{\PYZob{}Keywords\PYZcb{}}\PY{l+s+s1}{ | }\PY{l+s+si}{\PYZob{}Year\PYZcb{}}\PY{l+s+s1}{ | }\PY{l+s+si}{\PYZob{}Level\PYZcb{}}\PY{l+s+s1}{ |}\PY{l+s+s1}{\PYZsq{}}
+             \PY{n+nb}{print}\PY{p}{(}\PY{n}{string}\PY{o}{.}\PY{n}{format}\PY{p}{(}
+                 \PY{n}{Title} \PY{o}{=} \PY{n}{values\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{title}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{replace}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{|}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,} 
+                 \PY{n}{Speaker} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{NAME}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} 
+                 \PY{n}{Uploader} \PY{o}{=} \PY{n}{values\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{publisher}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}
+                 \PY{n}{Duration} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{DURATION}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} 
+                 \PY{n}{Views} \PY{o}{=} \PY{n+nb}{int}\PY{p}{(}\PY{n+nb}{round}\PY{p}{(}\PY{n}{values\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{views}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{/}\PY{l+m+mi}{1000}\PY{p}{)}\PY{o}{*}\PY{l+m+mi}{1000}\PY{p}{)}\PY{p}{,} 
+                 \PY{n}{Keywords} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{None}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} 
+                 \PY{n}{Year} \PY{o}{=} \PY{n}{values\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{published\PYZus{}yr}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}
+                 \PY{n}{url} \PY{o}{=} \PY{n}{values\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{url}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}
+                 \PY{n}{Level} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Novice}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+| [Tetiana Ivanova - How to become a Data Scientist in 6 months a hacker’s approach to career planning - YouTube](https://www.youtube.com/watch?v=rIofV14c0tc) | NAME | PyData | DURATION | 148000 | None | 2016 | Novice |
+| [Introduction Into Pandas: Python Tutorial - YouTube](https://www.youtube.com/watch?v=-NR-ynQg0YM) | NAME | Python Tutorial | DURATION | 46000 | None | 2017 | Novice |
+| [James Powell - So you want to be a Python expert? - YouTube](https://www.youtube.com/watch?v=cKPlPJyQrt4) | NAME | PyData | DURATION | 28000 | None | 2017 | Novice |
+| [NumPy Beginner   SciPy 2016 Tutorial   Alexandre Chabot LeClerc - YouTube](https://www.youtube.com/watch?v=gtejJ3RCddE) | NAME | Enthought | DURATION | 56000 | None | 2016 | Novice |
+| [Introduction To Data Analytics With Pandas - YouTube](https://www.youtube.com/watch?v=5XGycFIe8qE) | NAME | Python Tutorial | DURATION | 25000 | None | 2017 | Novice |
+| [Transforming Code into Beautiful, Idiomatic Python - YouTube](https://www.youtube.com/watch?v=OSGv2VnC0go) | NAME | Next Day Video | DURATION | 340000 | None | 2013 | Novice |
+| [Machine Learning Part 1   SciPy 2016 Tutorial   Andreas Mueller \& Sebastian Raschka - YouTube](https://www.youtube.com/watch?v=OB1reY6IX-o) | NAME | Enthought | DURATION | 47000 | None | 2016 | Novice |
+| [Brandon Rhodes - Pandas From The Ground Up - PyCon 2015 - YouTube](https://www.youtube.com/watch?v=5JnMutdy6Fw) | NAME | PyCon 2015 | DURATION | 91000 | None | 2015 | Novice |
+| [Modern Dictionaries by Raymond Hettinger - YouTube](https://www.youtube.com/watch?v=p33CVV29OG8) | NAME | SF Python | DURATION | 44000 | None | 2016 | Novice |
+| [Jake VanderPlas   The Python Visualization Landscape   PyCon 2017 - YouTube](https://www.youtube.com/watch?v=FytuB8nFHPQ) | NAME | PyCon 2017 | DURATION | 21000 | None | 2017 | Novice |
+| [Raymond Hettinger, Keynote on Concurrency, PyBay 2017 - YouTube](https://www.youtube.com/watch?v=9zinZmE3Ogk) | NAME | SF Python | DURATION | 15000 | None | 2017 | Novice |
+| [Pandas for Data Analysis   SciPy 2017 Tutorial   Daniel Chen - YouTube](https://www.youtube.com/watch?v=oGzU688xCUs) | NAME | Enthought | DURATION | 13000 | None | 2017 | Novice |
+| [JupyterLab: Building Blocks for Interactive Computing   SciPy 2016   Brian Granger - YouTube](https://www.youtube.com/watch?v=Ejh0ftSjk6g) | NAME | Enthought | DURATION | 28000 | None | 2016 | Novice |
+| [Sofia Heisler   No More Sad Pandas Optimizing Pandas Code for Speed and Efficiency   PyCon 2017 - YouTube](https://www.youtube.com/watch?v=HN5d490\_KKk) | NAME | PyCon 2017 | DURATION | 12000 | None | 2017 | Novice |
+| [A Visual Guide To Pandas - YouTube](https://www.youtube.com/watch?v=9d5-Ti6onew) | NAME | Next Day Video | DURATION | 49000 | None | 2015 | Novice |
+| [Machine Learning with Scikit Learn   SciPy 2015 Tutorial   Andreas Mueller \& Kyle Kastner Part I - YouTube](https://www.youtube.com/watch?v=80fZrVMurPM) | NAME | Enthought | DURATION | 48000 | None | 2015 | Novice |
+| [Machine Learning for Time Series Data in Python   SciPy 2016   Brett Naul - YouTube](https://www.youtube.com/watch?v=ZgHGCfwExw0) | NAME | Enthought | DURATION | 24000 | None | 2016 | Novice |
+| [The Fun of Reinvention (Screencast) - YouTube](https://www.youtube.com/watch?v=js\_0wjzuMfc) | NAME | David Beazley | DURATION | 11000 | None | 2017 | Novice |
+| [Analyzing and Manipulating Data with Pandas Beginner   SciPy 2016 Tutorial   Jonathan Rocher - YouTube](https://www.youtube.com/watch?v=6ohWS7J1hVA) | NAME | Enthought | DURATION | 22000 | None | 2016 | Novice |
+| [Super Advanced Python - YouTube](https://www.youtube.com/watch?v=u2KZJzoz-qI) | NAME | Next Day Video | DURATION | 143000 | None | 2013 | Novice |
+| [Computational Statistics   SciPy 2017 Tutorial   Allen Downey - YouTube](https://www.youtube.com/watch?v=He9MCbs1wgE) | NAME | Enthought | DURATION | 10000 | None | 2017 | Novice |
+| [Raymond Hettinger, "Being a Core Developer in Python", PyBay2016 - YouTube](https://www.youtube.com/watch?v=voXVTjwnn-U) | NAME | SF Python | DURATION | 19000 | None | 2016 | Novice |
+| [Aileen Nielsen - Time Series Analysis - PyCon 2017 - YouTube](https://www.youtube.com/watch?v=zmfe2RaX-14) | NAME | PyCon 2017 | DURATION | 9000 | None | 2017 | Novice |
+| [Learning TensorFlow - YouTube](https://www.youtube.com/watch?v=bvHgESVuS6Q) | NAME | PyCon Australia | DURATION | 18000 | None | 2016 | Novice |
+| [JupyterHub: Deploying Jupyter Notebooks for students and researchers - YouTube](https://www.youtube.com/watch?v=gSVvxOchT8Y) | NAME | PyData | DURATION | 17000 | None | 2016 | Novice |
+| [Jeffrey Yau   Applied Time Series Econometrics in Python and R - YouTube](https://www.youtube.com/watch?v=tJ-O3hk1vRw) | NAME | PyData | DURATION | 17000 | None | 2016 | Novice |
+| [Machine Learning with scikit learn Part One   SciPy 2017 Tutorial   Andreas Mueller \& Alexandre Gram - YouTube](https://www.youtube.com/watch?v=2kT6QOVSgSg) | NAME | Enthought | DURATION | 8000 | None | 2017 | Novice |
+| [Introduction to Numerical Computing with NumPy   SciPy 2017 Tutorial   Dillon Niederhut - YouTube](https://www.youtube.com/watch?v=lKcwuPnSHIQ) | NAME | Enthought | DURATION | 8000 | None | 2017 | Novice |
+| [Matthew Rocklin   Dask A Pythonic Distributed Data Science Framework   PyCon 2017 - YouTube](https://www.youtube.com/watch?v=RA\_2qdipVng) | NAME | PyCon 2017 | DURATION | 7000 | None | 2017 | Novice |
+| [Christopher Fonnesbeck - Introduction to Statistical Modeling with Python - PyCon 2017 - YouTube](https://www.youtube.com/watch?v=TMmSESkhRtI) | NAME | PyCon 2017 | DURATION | 7000 | None | 2017 | Novice |
+| [Fully Convolutional Networks for Image Segmentation   SciPy 2017   Daniil Pakhomov - YouTube](https://www.youtube.com/watch?v=-lXfsWP7DJ8) | NAME | Enthought | DURATION | 7000 | None | 2017 | Novice |
+| [Chloe Mawer, Jonathan Whitmore - Exploratory data analysis in python - PyCon 2017 - YouTube](https://www.youtube.com/watch?v=W5WE9Db2RLU) | NAME | PyCon 2017 | DURATION | 7000 | None | 2017 | Novice |
+| [Christopher Roach   Visualizing Geographic Data With Python - YouTube](https://www.youtube.com/watch?v=ZIEyHdvF474) | NAME | PyData | DURATION | 14000 | None | 2016 | Novice |
+| [Builtin Superheroes (Screencast) - YouTube](https://www.youtube.com/watch?v=j6VSAsKAj98) | NAME | David Beazley | DURATION | 12000 | None | 2016 | Novice |
+| [Python's Class Development Toolkit - YouTube](https://www.youtube.com/watch?v=HTLu2DFOdTg) | NAME | Next Day Video | DURATION | 80000 | None | 2013 | Novice |
+| [Sebastian Raschka   Learning scikit learn - An Introduction to Machine Learning in Python - YouTube](https://www.youtube.com/watch?v=9fOWryQq9J8) | NAME | PyData | DURATION | 12000 | None | 2016 | Novice |
+| [Alex Rubinsteyn: Python Libraries for Deep Learning with Sequences - YouTube](https://www.youtube.com/watch?v=E92jDCmJNek) | NAME | PyData | DURATION | 23000 | None | 2015 | Novice |
+| [The Other Async (Threads + Async = ❤️) - YouTube](https://www.youtube.com/watch?v=x1ndXuw7S0s) | NAME | David Beazley | DURATION | 5000 | None | 2017 | Novice |
+| [Daniel Chen   Introduction to Pandas - YouTube](https://www.youtube.com/watch?v=dye7rDktJ2E) | NAME | PyData | DURATION | 10000 | None | 2016 | Novice |
+| [Numba - Tell Those C++ Bullies to Get Lost   SciPy 2017 Tutorial   Gil Forsyth \& Lorena Barba - YouTube](https://www.youtube.com/watch?v=1AwG0T4gaO0) | NAME | Enthought | DURATION | 5000 | None | 2017 | Novice |
+| [Deploying Interactive Jupyter Dashboards for Visualizing Hundreds of Millions of Datapoints, in 30 L - YouTube](https://www.youtube.com/watch?v=8Jktm-Imt-I) | NAME | Enthought | DURATION | 5000 | None | 2017 | Novice |
+| [Divya Sardana   Building Recommender Systems Using Python - YouTube](https://www.youtube.com/watch?v=39vJRxIPSxw) | NAME | PyData | DURATION | 10000 | None | 2016 | Novice |
+| [Joel Grus: Learning Data Science Using Functional Python - YouTube](https://www.youtube.com/watch?v=ThS4juptJjQ) | NAME | PyData | DURATION | 18000 | None | 2015 | Novice |
+| [Stephen Simmons   Pandas from the Inside - YouTube](https://www.youtube.com/watch?v=CowlcrtSyME) | NAME | PyData | DURATION | 9000 | None | 2016 | Novice |
+| [Curious Course on Coroutines and Concurrency - YouTube](https://www.youtube.com/watch?v=Z\_OAlIhXziw) | NAME | David Beazley | DURATION | 9000 | None | 2016 | Novice |
+| [Anatomy of matplotlib   SciPy 2015 Tutorial   Benjamin Root and Joe Kington - YouTube](https://www.youtube.com/watch?v=MKucn8NtVeI) | NAME | Enthought | DURATION | 18000 | None | 2015 | Novice |
+| [Anatomy of Matplotlib   SciPy 2017 Tutorial   Ben Root - YouTube](https://www.youtube.com/watch?v=rARMKS8jE9g) | NAME | Enthought | DURATION | 4000 | None | 2017 | Novice |
+| [Data Science is Software   SciPy 2016 Tutorial   Peter Bull \& Isaac Slavitt - YouTube](https://www.youtube.com/watch?v=EKUy0TSLg04) | NAME | Enthought | DURATION | 9000 | None | 2016 | Novice |
+| [Jake VanderPlas: Machine Learning with Scikit Learn - YouTube](https://www.youtube.com/watch?v=HC0J\_SPm9co) | NAME | PyData | DURATION | 16000 | None | 2015 | Novice |
+| [Using Jupyter notebooks to develop and share interactive data displays - YouTube](https://www.youtube.com/watch?v=aXR2d9k9-h4) | NAME | PyCon Australia | DURATION | 8000 | None | 2016 | Novice |
+| [Parallel Python: Analyzing Large Datasets Intermediate   SciPy 2016 Tutorial   Matthew Rocklin \& Mi - YouTube](https://www.youtube.com/watch?v=5Md\_sSsN51k) | NAME | Enthought | DURATION | 7000 | None | 2016 | Novice |
+| [Functional Programming with Python - YouTube](https://www.youtube.com/watch?v=Ta1bAMOMFOI) | NAME | Next Day Video | DURATION | 44000 | None | 2013 | Novice |
+| [Predicting sports winners using data analytics with pandas and scikit-learn by Robert Layton - YouTube](https://www.youtube.com/watch?v=k7hSD\_-gWMw) | NAME | PyCon Australia | DURATION | 13000 | None | 2015 | Novice |
+| [Keynote: Project Jupyter   SciPy 2016   Brian Granger - YouTube](https://www.youtube.com/watch?v=v5mrwq7yJc4) | NAME | Enthought | DURATION | 7000 | None | 2016 | Novice |
+| [matplotlib (Python Plotting Library) Beginner   SciPy 2016 Tutorial   Nicolas Rougier - YouTube](https://www.youtube.com/watch?v=p7Mj-4kASmI) | NAME | Enthought | DURATION | 6000 | None | 2016 | Novice |
+| [Awesome Big Data Algorithms - YouTube](https://www.youtube.com/watch?v=jKBwGlYb13w) | NAME | Next Day Video | DURATION | 41000 | None | 2013 | Novice |
+| [Stephen Simmons - Pandas from the Inside / "Big Pandas" - YouTube](https://www.youtube.com/watch?v=YGk09nK\_xnM) | NAME | PyData | DURATION | 3000 | None | 2017 | Novice |
+| [Fear and Awaiting in Async (Screencast) - YouTube](https://www.youtube.com/watch?v=Bm96RqNGbGo) | NAME | David Beazley | DURATION | 5000 | None | 2016 | Novice |
+| [Brian Granger: All About Jupyter - YouTube](https://www.youtube.com/watch?v=GMKZD1Ohlzk) | NAME | PyData | DURATION | 11000 | None | 2015 | Novice |
+| [Anusua Trivedi: An example of Predictive Analytics: Building a Recommendation Engine using Python - YouTube](https://www.youtube.com/watch?v=E9XTOnEgqRY) | NAME | PyData | DURATION | 11000 | None | 2015 | Novice |
+| [Sarah Guido   The Wild West of Data Wrangling   PyCon 2017 - YouTube](https://www.youtube.com/watch?v=xn9sTXR3Cp8) | NAME | PyCon 2017 | DURATION | 3000 | None | 2017 | Novice |
+| [Adventures in scikit-learn's Random Forest by Gregory Saunders - YouTube](https://www.youtube.com/watch?v=YkVscKsV\_qk) | NAME | PyCon Australia | DURATION | 9000 | None | 2015 | Novice |
+| [Doing Math with Python - YouTube](https://www.youtube.com/watch?v=XJOt4QQgx0A) | NAME | PyCon Australia | DURATION | 5000 | None | 2016 | Novice |
+| [Iterations of Evolution:  The Unauthorized Biography of the For-Loop - YouTube](https://www.youtube.com/watch?v=2AXuhgid7E4) | NAME | David Beazley | DURATION | 2000 | None | 2017 | Novice |
+| [Alex Martelli, ""Good Enough" IS Good Enough!", PyBay2016 - YouTube](https://www.youtube.com/watch?v=\_Ek3A2b-nHU) | NAME | SF Python | DURATION | 4000 | None | 2016 | Novice |
+| [Renee Chu - Python for Social Scientists: Cleaning and Prepping Data - PyCon 2016 - YouTube](https://www.youtube.com/watch?v=u682UpVrMVM) | NAME | PyCon 2016 | DURATION | 3000 | None | 2016 | Novice |
+| [PyMC: Markov Chain Monte Carlo in Python   SciPy 2014   Chris Fonnesbeck - YouTube](https://www.youtube.com/watch?v=XbxIo7ScVzc) | NAME | Enthought | DURATION | 9000 | None | 2014 | Novice |
+| [Alex Martelli, ""The Tower of Abstraction", PyBay2016 - YouTube](https://www.youtube.com/watch?v=zhpWhkW8kcc) | NAME | SF Python | DURATION | 3000 | None | 2016 | Novice |
+| [Jupyter Advanced Topics Tutorial   SciPy 2015 Tutorial   Jonathan Frederic, Matthias Bussonier \& Tho - YouTube](https://www.youtube.com/watch?v=38R7jiCspkw) | NAME | Enthought | DURATION | 4000 | None | 2015 | Novice |
+| [Rachel Thomas, "Using randomness to make code much faster", PyBay2017 - YouTube](https://www.youtube.com/watch?v=7i6kBz1kZ-A) | NAME | SF Python | DURATION | 1000 | None | 2017 | Novice |
+| [Mahmoud Hashemi, Python Profiling \& Performance: elementary to enterprise, PyBay2016 - YouTube](https://www.youtube.com/watch?v=Dgnp28Ijm\_M) | NAME | SF Python | DURATION | 1000 | None | 2016 | Novice |
+| [Dillon Niederhut, "What to do when your data is large, but not big", PyBay2016 - YouTube](https://www.youtube.com/watch?v=g-YCaX3ml2Q) | NAME | SF Python | DURATION | 0 | None | 2016 | Novice |
+| [Cynthia Lin, "Opening Up to Open Source", PyBay2017 - YouTube](https://www.youtube.com/watch?v=rfdzOZkDqYk) | NAME | SF Python | DURATION | 0 | None | 2017 | Novice |
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}9}]:} \PY{n}{df}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{rating}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{n}{ascending} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}\PY{o}{.}\PY{n}{rating}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{bins} \PY{o}{=} \PY{l+m+mi}{25}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}9}]:} <matplotlib.axes.\_subplots.AxesSubplot at 0x7f928bdbf748>
+\end{Verbatim}
+            
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_9_1.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+    \end{document}

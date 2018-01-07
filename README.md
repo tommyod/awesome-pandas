@@ -42,7 +42,7 @@ quantified roughly as follows:
 | Title | Speaker | Uploader | Time | Views | Year | Level |
 | ----- | ------- | -------- | ---- | ----- | ---- | ----- |
 | :star: [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw) [[repo](https://github.com/brandon-rhodes/pycon-pandas-tutorial)] | Brandon Rhodes | PyCon 2015 | 2:24 | 91000 | 2015 | :smiley: |
-| [Introduction Into Pandas](https://www.youtube.com/watch?v=-NR-ynQg0YM) [repo](https://github.com/chendaniely/2016-pydata-carolinas-pandas) | Daniel Chen | Python Tutorial | 1:28 | 46000 | 2017 | :smiley: |
+| [Introduction Into Pandas](https://www.youtube.com/watch?v=-NR-ynQg0YM) [[repo](https://github.com/chendaniely/2016-pydata-carolinas-pandas)] | Daniel Chen | Python Tutorial | 1:28 | 46000 | 2017 | :smiley: |
 | [Introduction To Data Analytics With Pandas](https://www.youtube.com/watch?v=5XGycFIe8qE) [[repo](https://github.com/QCaudron/pydata_pandas)] | Quentin Caudron | Python Tutorial | 1:51 | 25000 | 2017 | :smiley: |
 | [Pandas for Data Analysis](https://www.youtube.com/watch?v=oGzU688xCUs) [[repo](https://github.com/chendaniely/scipy-2017-tutorial-pandas)] | Daniel Chen | Enthought | 3:45 | 13000 | 2017 | :sweat_smile: |
 | [Optimizing Pandas Code](https://www.youtube.com/watch?v=HN5d490_KKk) [[repo](https://github.com/sversh/pycon2017-optimizing-pandas)] | Sofia Heisler | PyCon 2017 | 0:29 | 12000 | 2017 | :sweat_smile: |
