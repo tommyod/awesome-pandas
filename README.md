@@ -53,6 +53,8 @@ quantified roughly as follows:
 | [Pandas from the Inside](https://www.youtube.com/watch?v=YGk09nK_xnM) [[repo](https://github.com/stevesimmons/pydata-berlin2017-pandas-and-dask-from-the-inside)] [[2016 talk](https://www.youtube.com/watch?v=CowlcrtSyME)] | Stephen Simmons | PyData | 1:17 | 3000 | 2017 | :scream: |
 | Pandas [part 1](https://www.youtube.com/watch?v=Cz_u2If7KbI) & [part 2](https://www.youtube.com/watch?v=gS7kVg-4ZaU) [[repo](https://github.com/jorisvandenbossche/pandas-tutorial)] | Joris Van den Bossche | EuroSciPy | 3:03 | 1000 | 2017 | :smiley: |
 | [Pandas: .head() to .tail()](https://www.youtube.com/watch?v=7vuO9QXDN50) [[repo](https://github.com/TomAugspurger/pydata-chi-h2t)] | Tom Augspurger | PyData | 1:26 | 3000 | 2016 | :sweat_smile: |
+| [Performance Pandas](https://www.youtube.com/watch?v=xUBoPK6FGIU) (london) [[repo](https://github.com/jreback/pydata2015-london)] | Jeff Reback | PyData | 0:43 | 2000 | 2015 | :sweat_smile: |
+| [Performance Pandas](https://www.youtube.com/watch?v=xUBoPK6FGIU) (NYC) [[repo](https://github.com/jreback/pydatanyc2015)] | Jeff Reback | PyData | 1:26 | 3000 | 2015 | :sweat_smile: |
 
 *Know of a recent, good video? Send a pull request!* :+1:
 
