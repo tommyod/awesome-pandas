@@ -3,7 +3,7 @@
 # awesome-pandas
 A collection of resources for [pandas](http://pandas.pydata.org/) 
 ([Python](https://www.python.org/)) and related subjects. 
-**Pull requests are very welcome.**
+**Pull requests are very welcome!**
 
 **Contents:** This is an unofficial collection of resources for learning pandas,
 an open source Python library for data analysis. Here you will find videos,
