@@ -57,6 +57,7 @@ quantified roughly as follows:
 | [Performance Pandas](https://www.youtube.com/watch?v=xUBoPK6FGIU) (NYC) [[repo](https://github.com/jreback/pydatanyc2015)] | Jeff Reback | PyData | 1:26 | 3000 | 2015 | :sweat_smile: |
 | [Python Data Science with pandas](https://www.youtube.com/watch?v=ikOEn8jY2Is) [[repo](https://github.com/mattharrison/PyCharm-2018-Webcast)] | Matt Harrison | JetBrainsTV | 1:09 | 2000 | 2018 | :smiley: |
 | [What is the Future of Pandas](https://www.youtube.com/watch?v=_-gJtO0XR48) [[slides](https://www.slideshare.net/JeffReback/future-of-pandas-82901487)] | Jeff Reback | PyData | 0:31 | 4000 | 2017 | :smiley: |
+| [Introduction to Python for Data Science](https://www.youtube.com/watch?v=W4WQi2OIy7o) [[repo](https://github.com/jseabold/pycon-ds-2018)] | Skipper Seabold | PyData | 3:18 | 300 | 2018 | :smiley: |
 
 *Know of a recent, good video? Send a pull request!* :+1:
 
