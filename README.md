@@ -59,7 +59,6 @@ quantified roughly as follows:
 | [What is the Future of Pandas](https://www.youtube.com/watch?v=_-gJtO0XR48) [[slides](https://www.slideshare.net/JeffReback/future-of-pandas-82901487)] | Jeff Reback | PyData | 0:31 | 4000 | 2017 | :smiley: |
 | [Introduction to Python for Data Science](https://www.youtube.com/watch?v=W4WQi2OIy7o) [[repo](https://github.com/jseabold/pycon-ds-2018)] | Skipper Seabold | PyData | 3:18 | 300 | 2018 | :smiley: |
 | [Pandas for Better (and Worse) Data Science](https://www.youtube.com/watch?v=0hsKLYfyQZc) [[repo](https://github.com/justmarkham/pycon-2018-tutorial)] | Kevin Markham  | PyCon 2018 | 3:21 | 3000 | 2018 | :smiley: |
-Markham 
 
 *Know of a recent, good video? Send a pull request!* :+1:
 
