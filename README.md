@@ -30,7 +30,7 @@ three parts:
 
 ### (1.1)  :tv: Videos
 
-The videos below were collected in December of 2017.
+The videos below were collected in July of 2018.
 They are all directly related to pandas, and the **Level** of a video is 
 quantified roughly as follows:
 
@@ -57,6 +57,8 @@ quantified roughly as follows:
 | [Performance Pandas](https://www.youtube.com/watch?v=xUBoPK6FGIU) (NYC) [[repo](https://github.com/jreback/pydatanyc2015)] | Jeff Reback | PyData | 1:26 | 3000 | 2015 | :sweat_smile: |
 | [Python Data Science with pandas](https://www.youtube.com/watch?v=ikOEn8jY2Is) [[repo](https://github.com/mattharrison/PyCharm-2018-Webcast)] | Matt Harrison | JetBrainsTV | 1:09 | 2000 | 2018 | :smiley: |
 | [What is the Future of Pandas](https://www.youtube.com/watch?v=_-gJtO0XR48) [[slides](https://www.slideshare.net/JeffReback/future-of-pandas-82901487)] | Jeff Reback | PyData | 0:31 | 4000 | 2017 | :smiley: |
+| [Introduction to Python for Data Science](https://www.youtube.com/watch?v=W4WQi2OIy7o) [[repo](https://github.com/jseabold/pycon-ds-2018)] | Skipper Seabold | PyData | 3:18 | 300 | 2018 | :smiley: |
+| [Pandas for Better (and Worse) Data Science](https://www.youtube.com/watch?v=0hsKLYfyQZc) [[repo](https://github.com/justmarkham/pycon-2018-tutorial)] | Kevin Markham  | PyCon 2018 | 3:21 | 3000 | 2018 | :smiley: |
 
 *Know of a recent, good video? Send a pull request!* :+1:
 
@@ -140,6 +142,8 @@ quantified roughly as follows:
 | [Jupyter Advanced Topics Tutorial](https://www.youtube.com/watch?v=38R7jiCspkw) [[repo](https://github.com/jupyter/scipy-advanced-tutorial)] | Jonathan Frederic & Matthias Bussonier | Enthought | 2:48 | 4000 | jupyter | 2015 | :scream: |
 | [Using randomness to make code much faster](https://www.youtube.com/watch?v=7i6kBz1kZ-A) | Rachel Thomas | SF Python | 0:54 | 1000 | scipy | 2017 | :sweat_smile: |
 | [Python Profiling & Performance](https://www.youtube.com/watch?v=Dgnp28Ijm_M) | Mahmoud Hashemi | SF Python | 0:28 | 1000 | python | 2016 | :sweat_smile: |
+| [Using List Comprehensions and Generator Expressions](https://www.youtube.com/watch?v=_6U1XoxyyBY) | Trey Hunner | PyCon 2018 | 3:21 | 3000 | python | 2018 | :sweat_smile: |
+| [Foundations of Numerical Computing](https://www.youtube.com/watch?v=aGGbnMyeZs0) | Scott Sanderson | PyCon 2018 | 3:22 | 1000 | python | 2018 | :sweat_smile: |
 
 ### (2.2) :exclamation: Cheat-sheets
 * [Numpy Cheat Sheet](http://datasciencefree.com/numpy.pdf)
@@ -177,6 +181,8 @@ quantified roughly as follows:
 | [Building a Recommendation Engine using Python](https://www.youtube.com/watch?v=E9XTOnEgqRY) | Anusua Trivedi | PyData | 0:37 | 11000 | python | 2015 | Novice |
 | [Iterations of Evolution](https://www.youtube.com/watch?v=2AXuhgid7E4) | David Beazley | David Beazley | 0:34 | 2000 | python | 2017 | Novice |
 | ["Good Enough" IS Good Enough!](https://www.youtube.com/watch?v=_Ek3A2b-nHU) | Alex Martelli | SF Python | 0:53 | 4000 | python | 2016 | Novice |
+| [Automating Code Quality](https://www.youtube.com/watch?v=G1lDk_WKXvY) | Kyle Knapp | PyCon 2018 | 0:30 | 3000 | python | 2018 | :sweat_smile: |
+
 
 
 ### (3.2) :exclamation: Cheat-sheets
