@@ -41,6 +41,11 @@ quantified roughly as follows:
 
 | Title | Speaker | Uploader | Time | Views | Year | Level |
 | ----- | ------- | -------- | ---- | ----- | ---- | ----- |
+| [Data Science Best Practices with pandas](https://www.youtube.com/watch?v=ZjrUmNq41Eo) [[repo](https://github.com/justmarkham/pycon-2019-tutorial)] | Kevin Markham | PyCon | 3:23 | 1000 | 2019 | :smiley: |
+Hannah Stepanek - Thinking like a Panda: Everything you need to know to use pandas the right way.
+| [Thinking like a Panda](https://www.youtube.com/watch?v=ObUcgEO4N8w) | Hannah Stepanek | PyCon | 0:36 | 700 | 2019 | :smiley: |
+| [Analyzing Census Data with Pandas](https://www.youtube.com/watch?v=sGtCgYWzOV4) [[repo](https://github.com/chekos/analyzing-census-data)] | Sergio Sánchez | PyCon | 3:15 | 600 | 2019 | :smiley: |
+| [Pandas is for Everyone](https://www.youtube.com/watch?v=3qDhDXNRgHE) [[repo](https://github.com/chendaniely/pycon_2019-pandas_tutorial)] | Daniel Chen | PyCon | 3:18 | 600 | 2019 | :smiley: |
 | :star: [Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw) [[repo](https://github.com/brandon-rhodes/pycon-pandas-tutorial)] | Brandon Rhodes | PyCon 2015 | 2:24 | 91000 | 2015 | :smiley: |
 | [Introduction Into Pandas](https://www.youtube.com/watch?v=-NR-ynQg0YM) [[repo](https://github.com/chendaniely/2016-pydata-carolinas-pandas)] | Daniel Chen | Python Tutorial | 1:28 | 46000 | 2017 | :smiley: |
 | [Introduction To Data Analytics With Pandas](https://www.youtube.com/watch?v=5XGycFIe8qE) [[repo](https://github.com/QCaudron/pydata_pandas)] | Quentin Caudron | Python Tutorial | 1:51 | 25000 | 2017 | :smiley: |
