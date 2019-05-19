@@ -41,8 +41,8 @@ quantified roughly as follows:
 
 | Title | Speaker | Uploader | Time | Views | Year | Level |
 | ----- | ------- | -------- | ---- | ----- | ---- | ----- |
+| Python for Data Analysis using Pandas [part 1](https://www.youtube.com/watch?v=Bs4xyX086_I) & [part 2](https://www.youtube.com/watch?v=u83SQvWYmbI) [[repo](https://github.com/tommyod/awesome-pandas)] | tommyod | na | 2:19 | 100 | 2019 | :smiley: |
 | [Data Science Best Practices with pandas](https://www.youtube.com/watch?v=ZjrUmNq41Eo) [[repo](https://github.com/justmarkham/pycon-2019-tutorial)] | Kevin Markham | PyCon | 3:23 | 1000 | 2019 | :smiley: |
-Hannah Stepanek - Thinking like a Panda: Everything you need to know to use pandas the right way.
 | [Thinking like a Panda](https://www.youtube.com/watch?v=ObUcgEO4N8w) | Hannah Stepanek | PyCon | 0:36 | 700 | 2019 | :smiley: |
 | [Analyzing Census Data with Pandas](https://www.youtube.com/watch?v=sGtCgYWzOV4) [[repo](https://github.com/chekos/analyzing-census-data)] | Sergio Sánchez | PyCon | 3:15 | 600 | 2019 | :smiley: |
 | [Pandas is for Everyone](https://www.youtube.com/watch?v=3qDhDXNRgHE) [[repo](https://github.com/chendaniely/pycon_2019-pandas_tutorial)] | Daniel Chen | PyCon | 3:18 | 600 | 2019 | :smiley: |
