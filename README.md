@@ -254,6 +254,7 @@ Every video is below.
 | [The Other Async (Threads + Async = ❤️) - YouTube](https://www.youtube.com/watch?v=x1ndXuw7S0s) | David Beazley | David Beazley | 0:47 | 5000 | python | 2017 | :snake: :snake: :snake:|
 | [Numba - Tell Those C++ Bullies to Get Lost](https://www.youtube.com/watch?v=1AwG0T4gaO0) [[repo](https://github.com/gforsyth/numba_tutorial_scipy2017)] | Gil Forsyth & Lorena Barba | Enthought | 2:25 | 5000 | numba | 2017 | :snake: :snake: |
 | [Deploying Interactive Jupyter Dashboards](https://www.youtube.com/watch?v=8Jktm-Imt-I) | Philipp Rudiger | Enthought | 0:18 | 5000 | jupyter | 2017 | :snake: :snake: |
+| [Eyal Trabelsi - Practical Optimisations for Pandas](https://www.youtube.com/watch?v=RXMiMpMfzXw) | Eyal Trabelsi | Europython | 0:45 | 5000 | jupyter | 2020 | :snake: :snake: |
 | [Data Science Using Functional Python](https://www.youtube.com/watch?v=ThS4juptJjQ) | Joel Grus | PyData | 0:44 | 18000 | python | 2015 | :snake: :snake: |
 | [Pandas from the Inside](https://www.youtube.com/watch?v=CowlcrtSyME) | Stephen Simmons | PyData | 1:20 | 9000 | pandas | 2016 | :snake: :snake: :snake: |
 | [Anatomy of matplotlib](https://www.youtube.com/watch?v=MKucn8NtVeI) [[repo](https://github.com/matplotlib/AnatomyOfMatplotlib)] | Benjamin Root & Joe Kington | Enthought | 3:18 | 18000 | matplotlib | 2015 | :snake: :snake: |
