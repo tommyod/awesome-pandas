@@ -23,6 +23,7 @@ three parts:
 3. **Miscellaneous related resources** - Resources related to *general* data
   analysis, Python programming, algorithms, computer science, machine learning, 
   statistics, etc.
+4. **Packages** - Python packages for helping to work with Pandas.
 
 --------------------------------------------------------------------------------
 
@@ -277,3 +278,7 @@ Every video is below.
 | [Jupyter Advanced Topics Tutorial](https://www.youtube.com/watch?v=38R7jiCspkw) [[repo](https://github.com/jupyter/scipy-advanced-tutorial)] | Jonathan Frederic & Matthias Bussonier | Enthought | 2:48 | 4000 | jupyter | 2015 | Novice |
 | [Using randomness to make code much faster](https://www.youtube.com/watch?v=7i6kBz1kZ-A) | Rachel Thomas | SF Python | 0:54 | 1000 | scipy | 2017 | Novice |
 | [Python Profiling & Performance](https://www.youtube.com/watch?v=Dgnp28Ijm_M) | Mahmoud Hashemi | SF Python | 0:28 | 1000 | python | 2016 | Novice |
+
+## (4) Packages
+
+- [datatest](https://github.com/shawnbrown/datatest) - Tools for test driven data-wrangling and data validation (DataFrame, Series, Index, MultiIndex).
