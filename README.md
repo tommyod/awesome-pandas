@@ -98,7 +98,7 @@ quantified roughly as follows:
 * [pandas_basics](https://github.com/vi3k6i5/pandas_basics)
 * [first-python-notebook](https://github.com/california-civic-data-coalition/first-python-notebook)
 * [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas)
-*_[Pandas practice website](https://pandaspractice.com/)
+* [Pandas practice website](https://pandaspractice.com/)
 
 
 ### (1.4) :blue_book: Books / papers
