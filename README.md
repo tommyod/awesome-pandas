@@ -42,6 +42,7 @@ quantified roughly as follows:
 
 | Title | Speaker | Uploader | Time | Views | Year | Level |
 | ----- | ------- | -------- | ---- | ----- | ---- | ----- |
+|[Pandas tutorial for Data Science](https://www.youtube.com/playlist?list=PL1xVF1dBM4bmy13VIiL0mD8mZQ40XePWw) | Bikram Kundu | - | > 01:20| 2K+ | 2022 | :smiley: |
 | Python for Data Analysis using Pandas [part 1](https://www.youtube.com/watch?v=Bs4xyX086_I) & [part 2](https://www.youtube.com/watch?v=u83SQvWYmbI) [[repo](https://github.com/tommyod/awesome-pandas)] | tommyod | na | 2:19 | 100 | 2019 | :smiley: |
 | [Data Science Best Practices with pandas](https://www.youtube.com/watch?v=ZjrUmNq41Eo) [[repo](https://github.com/justmarkham/pycon-2019-tutorial)] | Kevin Markham | PyCon | 3:23 | 1000 | 2019 | :smiley: |
 | [Thinking like a Panda](https://www.youtube.com/watch?v=ObUcgEO4N8w) | Hannah Stepanek | PyCon | 0:36 | 700 | 2019 | :smiley: |
