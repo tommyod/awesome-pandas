@@ -159,6 +159,7 @@ quantified roughly as follows:
 * [Python For Data Science - Scikit-Learn](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf)
 
 ### (2.3) :mortar_board: Tutorials
+* :star: [Python Tutorial](https://www.scaler.com/topics/python/)
 
 ### (2.4) :blue_book: Books / papers
 
