@@ -27,6 +27,7 @@ three parts:
 
 --------------------------------------------------------------------------------
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Pandas data analysis workflow orchestration, automated data wrangling pipeline management, and multi-agent coordination. MIT licensed.
 ## (1)  :panda_face: pandas resources
 
 ### (1.1)  :tv: Videos
