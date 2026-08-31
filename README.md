@@ -101,6 +101,7 @@ quantified roughly as follows:
 * [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas)
 * [Pandas practice website](https://pandaspractice.com/)
 * [Bamboo Weekly](https://www.bambooweekly.com/about/) - weekly practice exercises using real-world data, with detailed solutions and downloadable notebooks
+* [pandas-silent-bugs](https://github.com/thibaudlepan77-svg/pandas-silent-bugs) - 182 runnable examples of pandas operations that return a wrong result without raising, each shown with the real captured output, plus a script that re-runs every example
 
 
 ### (1.4) :blue_book: Books / papers
