@@ -101,6 +101,7 @@ quantified roughly as follows:
 * [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas)
 * [Pandas practice website](https://pandaspractice.com/)
 * [Bamboo Weekly](https://www.bambooweekly.com/about/) - weekly practice exercises using real-world data, with detailed solutions and downloadable notebooks
+* [Listed-price data validation notebook](https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/blob/main/notebooks/q3-2026-listed-price-range-analysis.ipynb) - worked pandas example of uniqueness, count and range checks, sorting, value counts and joins using a versioned single-retailer snapshot, with Matplotlib charts and interpretation limits
 
 
 ### (1.4) :blue_book: Books / papers
