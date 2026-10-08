@@ -289,3 +289,4 @@ Every video is below.
 - [pandera](https://github.com/pandera-dev/pandera) - A light-weight, flexible, and expressive data validation library for dataframes.
 - [pandas-vet](https://github.com/deppen8/pandas-vet) - A plugin for Flake8 that checks pandas code.
 - [daffy](https://github.com/vertti/daffy/) - Decorator-first DataFrame contracts (columns/dtypes/constraints) at function boundaries. Supports Pandas/Polars/PyArrow/Modin.
+- [polynx](https://github.com/LowellWinston/polynx) - Pandas-style `query`/`eval`/`assign` string expressions for Polars DataFrames, for pandas users who want Polars' speed without rewriting their syntax.
