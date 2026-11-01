@@ -109,6 +109,7 @@ quantified roughly as follows:
 * [[amazon](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057/)] VanderPlas, Jake. *Python Data Science Handbook: Essential Tools for Working with Data*. 1 edition. O’Reilly Media, 2016.
 * [[manning](https://www.manning.com/books/pandas-workout)] Lerner, Reuven. *50 exercises that will strengthen your pandas skills to a level of automatic fluency*. 1 edition. Manning Publications, 2021.
 * [[manning](https://www.manning.com/books/pandas-in-action)] Paskhaver, Boris. *This friendly and hands-on guide shows you how to start mastering Pandas with skills you already know from spreadsheet software.*. 1 edition. Manning Publications, 2021.
+* [[amazon](https://www.amazon.com/dp/B08NG8QHW7)] Mayer, Christian, Lukas Rieger, and Kyrylo Kravets. *Coffee Break Pandas: 74 Pandas Puzzles to Build Your Pandas Data Science Superpower*. 1 edition, 2020.
 
 --------------------------------------------------------------------------------
 
