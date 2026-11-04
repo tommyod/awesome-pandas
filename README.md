@@ -101,6 +101,7 @@ quantified roughly as follows:
 * [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas)
 * [Pandas practice website](https://pandaspractice.com/)
 * [Bamboo Weekly](https://www.bambooweekly.com/about/) - weekly practice exercises using real-world data, with detailed solutions and downloadable notebooks
+* [Normalize prices to 100 in Python](https://sifting.io/blog/normalize-prices-to-100-python-compare-market-data) - Rebase time series with a shared timezone-aware baseline using DataFrame.div, preserving later missing values; includes fictional data runnable without an API key.
 
 
 ### (1.4) :blue_book: Books / papers
