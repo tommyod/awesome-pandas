@@ -101,6 +101,7 @@ quantified roughly as follows:
 * [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas)
 * [Pandas practice website](https://pandaspractice.com/)
 * [Bamboo Weekly](https://www.bambooweekly.com/about/) - weekly practice exercises using real-world data, with detailed solutions and downloadable notebooks
+* [Clean a Messy Invoice Export with pandas](https://learn.ynteractive.com/content/python-clean-invoice-export) - beginner walkthrough in Google Colab: tidy names with `str.strip()` and `str.title()`, turn text amounts into numbers, `drop_duplicates()`, then total with `groupby()`
 
 
 ### (1.4) :blue_book: Books / papers
