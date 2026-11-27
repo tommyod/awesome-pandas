@@ -101,6 +101,7 @@ quantified roughly as follows:
 * [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas)
 * [Pandas practice website](https://pandaspractice.com/)
 * [Bamboo Weekly](https://www.bambooweekly.com/about/) - weekly practice exercises using real-world data, with detailed solutions and downloadable notebooks
+* [pandas practice exercises (The Work Gym)](https://theworkgym.com/pandas/)
 
 
 ### (1.4) :blue_book: Books / papers
